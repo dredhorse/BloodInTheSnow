@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Welcome to my new Hackintosh Build](README.md)
+* [Blood in the Snow, a hackintosh story](README.md)
 

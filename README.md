@@ -1,4 +1,4 @@
-# Welcome to my new Hackintosh Build
+# Blood in the Snow, a hackintosh story
 
 ## Welcome to my new Hackintosh Build
 
