@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+---
+description: Introduction
+---
 
-You can use the [editor on GitHub](https://github.com/dredhorse/BloodInTheSnow/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+# Welcome to my new Hackintosh Build
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Hi, please pardon the dust till my hardware arrives. I will update this documentation with a build log of how I did build my BloodInTheSnow Hackintosh and a workl og on how to install OSX Catalina and Windows 10 on this system afterwards.
 
-### Markdown
+And finally I will have a install log on how to install OSX Catalina on my hardware.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## The Hardware
 
-```markdown
-Syntax highlighted code block
+Hardware will go here...
 
-# Header 1
-## Header 2
-### Header 3
+## Build Log
 
-- Bulleted
-- List
+The build log will start here
 
-1. Numbered
-2. List
+## Work Log
 
-**Bold** and _Italic_ and `Code` text
+The work log will start here
 
-[Link](url) and ![Image](src)
-```
+## Install Log
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+The install log will start here
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dredhorse/BloodInTheSnow/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
