@@ -4,7 +4,7 @@ all: build
 
 build:
 	gitbook build .
-	rsync -rv --delete-before --exclude '.nojekyll' _book/ web/
+	rsync -rv --delete-before --exclude '.nojekyll' _book/ docs/
 
 pdf:
 	gitbook pdf .

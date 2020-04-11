@@ -1,0 +1,15 @@
+# temp file.
+.DS_Store
+*.swp
+*.zip
+*.bak
+
+# node.js modules.
+node_modules/
+
+# generator file with build.
+_books/
+_book/
+book.epub
+book.mobi
+book.pdf

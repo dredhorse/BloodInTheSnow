@@ -7,10 +7,10 @@ echo ""
 gitbook build
 
 echo ""
-echo "### Syncing gitpages static website to web/ directory... ###"
+echo "### Syncing gitpages static website to docs/ directory... ###"
 echo ""
 
-rsync -rv --delete-before --exclude '.nojekyll' _book/ web/
+rsync -rv --delete-before --exclude '.nojekyll' _book/ docs/
 
 echo ""
 echo "### Cleaning up GitBook build... ###"
