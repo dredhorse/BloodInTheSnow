@@ -5,6 +5,8 @@
 ## The Hardware
 
 * [The Hackintosh itself](the-hardware/the-hackintosh-itself.md)
+* [The Waterworks](the-hardware/the-waterworks.md)
+* [The Brain](the-hardware/the-brain.md)
 
 ## This and that
 
