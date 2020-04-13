@@ -10,5 +10,6 @@
 
 ## This and that
 
+* [LianLi O11 Dynamics XL Review](this-and-that/lianli-o11-dynamics-xl-review.md)
 * [Using gitbook to generate the documentation](this-and-that/using-gitbook-to-generate-the-documentation.md)
 

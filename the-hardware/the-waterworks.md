@@ -9,8 +9,9 @@ Cooling of the Hackintosh will be done by the following components:
 | Radiator Side | [Hardware Labs Black Ice Nemesis GTS 360 white](http://hardwarelabs.com/nemesis/gts/360gts/) |
 | Fittings | Bykski 16/10 white |
 | Tube | Mayhems Ultra Clear 16/10 |
-| Fluid | Aqua Computer Double Protect Ultra - red |
-| CPU Cooler | Aqua Computer Cuplex Kryos Next with Vision |
+| Fluid | [Aqua Computer Double Protect Ultra - red](https://www.aquatuning.de/water-cooling/water-additives/ready-to-use/9216/aquacomputer-double-protect-ultra-red-1000ml) |
+| CPU Cooler | [Aqua Computer Cuplex Kryos Next with Vision](https://aquacomputer.de/cuplex-kryos-next.html) |
 | GPU Cooler | [Powercolor Liquid Devil AMD Radeon RX 5700 XT](https://www.powercolor.com/product?id=1573110646) |
-| Pump | Aqua Computer D5 Next |
+| Pump | [Aqua Computer D5 Next](https://www.aquacomputer.de/newsreader/items/d5-next---die-komplettloesung.html) |
+| Reservoir | [Heatkiller Tube 150 D5 red](https://shop.watercool.de/epages/WatercooleK.sf/en_GB/?ViewObjectPath=%2FShops%2FWatercooleK%2FProducts%2F30204) |
 
