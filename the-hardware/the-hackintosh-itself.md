@@ -11,6 +11,7 @@ The hackintosh itself will have the following components:
 | RAM | [Patriot Viper Gaming RGB 16GB DDR4 3200 white PVR416G320C6KW](https://viper.patriotmemory.com/products/viper-rgb-ddr4-performance-memory-ram-viper-gaming-by-patriot-memory) |
 | PSU | [Corsair RMX850 white](https://www.corsair.com/eu/en/Categories/Products/Power-Supply-Units/RMx-White-Series%E2%84%A2-RM850x-%E2%80%94-850-Watt-80-PLUS%C2%AE-Gold-Certified-Fully-Modular-PSU-%28EU%29/p/CP-9020156-EU) |
 | Fans | [Corsair LL 120 RGB Dual Light Loop PWM](https://www.corsair.com/de/en/Categories/Products/Fans/ml-config/p/CO-9050072-WW) |
+| Wifi / Bluetooth | [MQUPIN fenvi T919 Wireless](https://www.amazon.com/fenvi-Continuity-BCM94360CD-1750Mbps-Beamforming/dp/B07VCCZS54) |
 
 
 
