@@ -1,4 +1,4 @@
-# SnowWhite, a hackintosh story
+# Blood in the Snow, a hackintosh story
 
 ## Welcome to my new Hackintosh Build
 
