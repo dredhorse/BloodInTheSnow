@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Blood in the Snow, a hackintosh story](README.md)
+* [SnowWhite, a hackintosh story](README.md)
 
 ## The Hardware
 
