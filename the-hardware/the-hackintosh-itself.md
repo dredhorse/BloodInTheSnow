@@ -13,5 +13,5 @@ The hackintosh itself will have the following components:
 | Fans | [Corsair LL 120 RGB Dual Light Loop PWM](https://www.corsair.com/de/en/Categories/Products/Fans/ml-config/p/CO-9050072-WW) |
 | Wifi / Bluetooth | [MQUPIN fenvi T919 Wireless](https://www.amazon.com/fenvi-Continuity-BCM94360CD-1750Mbps-Beamforming/dp/B07VCCZS54) |
 
-
+It was perhaps a stupid idea to start this during the Covid-19 lock down. Getting all the things is proving to be problematic.
 

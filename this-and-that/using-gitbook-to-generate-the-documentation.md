@@ -2,11 +2,13 @@
 
 ## Installing gitbook-cli on OSX Catalina
 
-There is a good documentation available on
-
-{% embed url="https://github.com/chusiang/how-to-build-the-gitbook-with-gitbook-cli" caption="" %}
+There is a good documentation available on [GitHub](https://github.com/chusiang/how-to-build-the-gitbook-with-gitbook-cli)
 
 but it is a little bit older so here are some additional steps you need to do.
+
+{% hint style="info" %}
+There is also an issue if you use an embeded URL. This will cause the cli version of gitbook to fail. For example {% embed url="[https://github.com/chusiang/how-to-build-the-gitbook-with-gitbook-cli](https://github.com/chusiang/how-to-build-the-gitbook-with-gitbook-cli)" caption="" %} will cause Template render error: \( ..../SnowWhite/this-and-that/using-gitbook-to-generate-the-documentation.md\) \[Line 7, Column 2\] unknown block tag: embed make: _\*_ \[build\] Error 1
+{% endhint %}
 
 ### Prerequisites
 
