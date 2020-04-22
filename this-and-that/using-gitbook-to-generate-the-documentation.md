@@ -7,8 +7,10 @@ There is a good documentation available on [GitHub](https://github.com/chusiang/
 but it is a little bit older so here are some additional steps you need to do.
 
 {% hint style="info" %}
-There is also an issue if you use an embeded URL. This will cause the cli version of gitbook to fail. For example {% embed url="[https://github.com/chusiang/how-to-build-the-gitbook-with-gitbook-cli](https://github.com/chusiang/how-to-build-the-gitbook-with-gitbook-cli)" caption="" %} will cause Template render error: \( ..../SnowWhite/this-and-that/using-gitbook-to-generate-the-documentation.md\) \[Line 7, Column 2\] unknown block tag: embed make: _\*_ \[build\] Error 1
+There is also an issue with a lot of the features of the newer version of Gitbook. This is for example embedded URL or this Hint even. This will cause the cli version of gitbook to fail. For example {% embed url="[https://github.com/chusiang/how-to-build-the-gitbook-with-gitbook-cli](https://github.com/chusiang/how-to-build-the-gitbook-with-gitbook-cli)" caption="" %} will cause Template render error: \( ..../SnowWhite/this-and-that/using-gitbook-to-generate-the-documentation.md\) \[Line 7, Column 2\] unknown block tag: embed make: _\*_ \[build\] Error 1
 {% endhint %}
+
+All in all I didn't pursue this further due to the above mentioned issues at the moment but I kept it here. It might be useful to others.
 
 ### Prerequisites
 
