@@ -22,7 +22,7 @@ And there is also management, for heat / cooling and the laser shows which can b
 
 ### Build Log
 
-The build log will start here
+As the hardware is finally there, not complete but at least enough to figure out what is missing let's go.
 
 ### Work Log
 

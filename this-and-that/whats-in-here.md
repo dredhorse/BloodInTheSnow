@@ -8,6 +8,10 @@ I hope you find this information useful even if it is unpolished.
 
 I keep on learning with everything I do, and I like to share the [lessons I learned.](lessons-learned.md)
 
+## Tips and Tricks
+
+Here are some [Tips and Tricks](tips-and-tricks.md) which don't fit into Lessons Learned, also some Links to other resources.
+
 ## LianLi O11 Dynamics XL Review
 
 So what do I think about the case after I created a hackintosh in it? [Find it out and be flubbergasted.](lianli-o11-dynamics-xl-review/)

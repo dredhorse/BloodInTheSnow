@@ -27,5 +27,18 @@ If you want something special be prepared to pay a lot of money, wait ages or be
 
 Especially if you want to have coloured parts for the custom watercooling, make sure before that the provider of the parts you will choose will support your theme. Also keep in mind that everybody seems to have a different definition of white, black, grey, red and so on. So mixing and matching might not be possible.
 
+## You need more time and parts than you think
 
+Even if you plan ahead, if you are not one of the specialised shops for custom watercooling or creating time-lapsed youtube videos you will need additional time and parts.
+
+I needed to buy additional screws to mount the reservoir mount to the radiator via the fans. 
+
+INSERT PIC HERE  
+Not only where the screws supplied with the mounts m3 and the radiator required m4, they where also quite short. I measured the original screws and they where 3 cm long. So I decided to buy 4 x 3.5 cm and 4 x 4 cm screws including some washers.
+
+In the end, after drilling m4 holes into the mounts, I needed the 4 cm screws because they are resting on top of the mount, not internally. Sinking them isn't really an option because than I would need to use washers between mount and fans.
+
+Oh and did I already say that the first shop I went to only had 4 cm screws and washers?
+
+Similar did happen with the fittings and cables for the AquaComputer parts. I didn't notice when ordering that there where no connection cables between the pump, cpu cooler and flow meter to the aquaero supplied.
 
