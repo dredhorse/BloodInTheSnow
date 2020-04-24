@@ -45,9 +45,9 @@ INSERT Pics here
 
 Normally you configure the lower radiator to pull cool air into the case and you would for sure keep a dust filter probably outside the case to keep the dust out.
 
-Unfortunately dust filters which are not directly mounted on top of the fan or radiator cause a very high resistance for the air to go through them if the air finds a different way. And that way is via the holes in the mounting frame.
+Unfortunately dust filters which are not directly mounted on top of the fan or radiator cause a very high resistance for the air to go through them if the air finds a different way. And that way is via the holes in the mounting frame, luckily there are not a lot and depending from the Radiator you mount they will even be covered.
 
-So some of the air which you will suck through the radiator in a pull configuration will be coming from inside the case and not from the outside \(if not all\).
+So some of the air which you will suck through the radiator in a pull configuration will be coming from inside the case and not from the outside.
 
 ## HardDrive Cages
 

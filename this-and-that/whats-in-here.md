@@ -4,6 +4,10 @@ So you have come to This and That.
 
 I hope you find this information useful even if it is unpolished.
 
+## Lessons Learned
+
+I keep on learning with everything I do, and I like to share the [lessons I learned.](lessons-learned.md)
+
 ## LianLi O11 Dynamics XL Review
 
 So what do I think about the case after I created a hackintosh in it? [Find it out and be flubbergasted.](lianli-o11-dynamics-xl-review/)
