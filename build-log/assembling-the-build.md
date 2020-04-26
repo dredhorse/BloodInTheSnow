@@ -25,7 +25,7 @@ On the pictures it might doesn't look that tight but there are no tubes in there
 
 ## Tubing
 
-I went with 16/10 soft tubes because I was told the don't bend to easy. I don't think they are too beefy for this build but they did cause some issues.
+I went with 16/10 soft tubes because I was told they don't kink to easy. I don't think they are too beefy for this build but they did cause some issues.
 
 The main problem I had was to incorporate the flow sensor and a drain valve.  I couldn't get a valve in white and I also didn't want to have it in the main compartment. So I wanted to have it split after the flow sensor and go into the side compartment. That is quite full though.
 
@@ -41,9 +41,9 @@ During my search for knowledge I came upon the procuts from Aquacomputer which o
 
 ### Temperature
 
-The aquaero will control the temperature and speed of the system. 
+The aquaero will messure the temperature and will control the speed of the components. 
 
-#### Water Temperature:
+#### Coolant Temperature:
 
 The D5 Next Pump directly provides the temperature of the cooling liquid and also offers a way to virtually define a throughput measurement. In my case the flow sensor will give us throughput measure directly. 
 
@@ -59,5 +59,35 @@ The motherboard will get a temperature sensor which will be attached to one of t
 
 The aquaero will get an additional temperature sensor for the harddrives and one for the outside air. Perhaps one more sensor inside the case for additional measurement if the need arises.
 
+### Pump and Fan Speed
 
+Pump and Fan Speed will be controlled based on coolant temperature and outside temperature.
+
+I aim for a max pump speed which is still not noticeable and for a medium during normal operation. 
+
+Fans should start with bottom and top fans spinning and ramping up, than side and back kicking in.
+
+This should give a good amount of cooling with low noise.  
+
+### Laser Show
+
+Oh well... all the RGB Stuff. Unfortunately the farbwerk360 can not be controlled directly via the aquaero. And under OSX the USB option is not possible. So I will use some independent temperature sensors to control the light.
+
+The light theme of the build will be slowly pulsing white with some red put into it. The red becomes more dominant as the temperature rises.
+
+#### Mainboard and GPU
+
+Mainboard and GPU will be controlled via the BIOS. I aim for a white glow, slowly pulsing. Let's wait and see. I need to take a look if I will be able to change the light effects via cpu temperature, in which case I will add some red I guess.
+
+#### CPU Cooler
+
+The CPU Cooler can be controlled via USB or by temperature. I need to see what is possible... pulsing red would be nice, the hotter the faster.
+
+#### Front and Reservoir
+
+The front and reservoir rgb will be connected via adapters and will be controlled via the farbwerk360.
+
+#### Fans
+
+The corsair fans will be connected with the splitty4 to the farbwerk360. Only 3 can be put on one output of the farbwerk360. That is the reason why I have 2 farbwerk360. We will see how good I can synchronize them without the help of a USB connection.
 
