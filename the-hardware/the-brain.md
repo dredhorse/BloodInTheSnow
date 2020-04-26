@@ -16,5 +16,9 @@ But because I wanted a challenge and I tend to over-engineer, it will be managed
 | Air Temperatur Sensor | [Aqua Computer Temperature sensor for aquaero](https://shop.aquacomputer.de/product_info.php?language=en&products_id=1621) | 1 |
 | Flow Sensor | [Aqua Computer Flow Sensor High Flow](https://shop.aquacomputer.de/product_info.php?products_id=2294) | 1 |
 | ARGB Adapter for Reservoir and Front Panel | [RGBpx Adapter](https://shop.aquacomputer.de/product_info.php?products_id=3829) | 2 |
+| Connection Flow Sensor to Aquaero | [Connection cable for flow sensor](https://shop.aquacomputer.de/product_info.php?products_id=2763) | 1 |
+| Connection Pump and CPU Cooler to Aquaero | [aquabus cable 4 pins for VISION](https://shop.aquacomputer.de/product_info.php?products_id=3487) | 2 |
 |  |  |  |
+
+
 
