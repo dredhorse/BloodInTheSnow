@@ -2,9 +2,9 @@
 
 ## Welcome to my new Hackintosh Build
 
-Hi, please pardon the dust till my hardware arrives. I will update this documentation with a build log of how I did build my SnowWhite Hackintosh and a work log on how to install OSX Catalina and Windows 10 on this system afterwards.
+Hi, please pardon the dust till my hardware arrives. I will update this documentation with a build log of how I did build my SnowWhite Hackintosh and a install log on how to install OSX Catalina and Windows 10 on this system afterwards.
 
-And finally I will have an install log on how to install OSX Catalina on my hardware.
+And finally I will have an change log for all the changes which where needed afterwards to keep the system up and running.
 
 I will keep the information here updated and create additional documents if the need arises due to updates, patches, changes etc.
 
@@ -24,13 +24,13 @@ And there is also management, for heat / cooling and the laser shows which can b
 
 As the hardware is finally there, not complete but at least enough to figure out what is missing let's go.
 
-### Work Log
+### Install Log
 
 The work log will start here
 
-### Install Log
+### Change Log
 
-The install log will start here
+The change log will start here
 
 ### This and that
 
