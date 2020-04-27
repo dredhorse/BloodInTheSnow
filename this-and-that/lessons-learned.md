@@ -42,3 +42,37 @@ Oh and did I already say that the first shop I went to only had 4 cm screws and 
 
 Similar did happen with the fittings and cables for the AquaComputer parts. I didn't notice when ordering that there where no connection cables between the pump, cpu cooler and flow meter to the aquaero supplied.
 
+## Order of Assembly
+
+The order of Assembly is quite important. Not in the obvious way like first CPU into CPU Socket and than the Cooler.
+
+No, more in the way of figuring out the limiting factors first by doing a test positioning of components and than focussing on those limiting factors first.
+
+So you put the cooler on the CPU but don't use the cooling paste yet, as we will remove it again.
+
+So try to position all components and if you find limits during this part directly try to find a solution for them. 
+
+Than with the components in place try to simulate cable and tube flow. Are the cables long enough? Will a tube kink? So make all of this work, either by repositioning the tubes and cables or by getting longer tubes and cables.
+
+Also directly start looking for which part of tubing and cableing comes first, which after that and so on.
+
+And of course you should now notice the hard spaces where you can't get to after you have put other things, might it be components, tubing or cableing in place.
+
+Make yourself a list of steps with this information.
+
+Did you find things which are questionable to implement?
+
+Try them first, making sure that it will fit / work. Otherwise thing about a workaround or if possible just don't implement it. If you NEED to implement it take a step back and look at the issue again. Sometimes dropping some ideas will make it work. Sometimes putting things in different places or orientation will make it work. Sometimes the only way is to get a drill  or saw out and remove parts of the case. And sometimes..... well....  you need to start from scratch and get a total different component.
+
+After you have done all this try it again. Again... nothing will be fully fixed now, just make sure it works.
+
+Than you start the process for good. During all the following steps keep in mind  the ordered list of steps you created so that you don't put yourself into a tight corner, there are enough already.
+
+Put the thermal paste on the cpu and attach the cooler correctly. Start with the tubeing and make sure that it can hold pressure.
+
+Now attach all the cables. Keep in mind that labeled cables save you a lot of hassle in the long run.
+
+Now fill the system with coolant and let the cooling part run for some time.
+
+Than you can boot up your new computer.
+
