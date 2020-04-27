@@ -7,7 +7,7 @@ As this is becoming quite long it is divided into several documents.
 ## Main Case
 
 1. [Main Compartment](main-compartment.md)
-2. Side Compartment
+2. [Side Compartment](side-compartment.md)
 
 
 
