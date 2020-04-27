@@ -91,3 +91,29 @@ The front and reservoir rgb will be connected via adapters and will be controlle
 
 The corsair fans will be connected with the splitty4 to the farbwerk360. Only 3 can be put on one output of the farbwerk360. That is the reason why I have 2 farbwerk360. We will see how good I can synchronize them without the help of a USB connection.
 
+## Storage
+
+Most of the decision for storage is easy.
+
+A\) It needs to be supported by OSX
+
+B\) Because it is a hackintosh you want to make a full bootable copy of the OSX disk, so you need 2 devices of the same size
+
+C\) I already have a quite good setup in my other Hackintosh which I "copied" over.
+
+I went for 2 M2 PCIe devices to host OSX and Windows 10, a normal SSD in the size of the M2 device for OSX, a 250GB SDD for usage with encryption to hold business data and a 2 TB hybrid Seagate Firecuda in 2,5" form factor.
+
+Important to note is that if you want to use 6 storage devices in total together with M2 you need to use PCIe based M2 devices with this motherboard, otherwise you can only attach 3 SATA devices.
+
+I'm fine as M2M will be a  Samsung EVO PRO \(which is only supported with OSX with the latest firmware patches\) and M2A will be a ADATA XPG SX8200 Pro.
+
+Backup and FileVault will be Samsung EVO 850 which I already had.
+
+I screwed in the additional mounting material for the M2 cards, inserted the storage and put the motherboard included coolers on top.
+
+The 2,5" SSDs and the Firecuda I mounted into the removable drive cages and inserted them carefully into the drive bays. Worked like a charm.
+
+Boot Order will be the OSX Disk first which will than boot OpenCore which will detect also the Windows 10 install and allow booting into it. So no dualboot on one device.
+
+The additional benefit of having 2 boot devices is that both can be independently 
+
