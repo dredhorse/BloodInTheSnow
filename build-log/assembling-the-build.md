@@ -115,5 +115,7 @@ The 2,5" SSDs and the Firecuda I mounted into the removable drive cages and inse
 
 Boot Order will be the OSX Disk first which will than boot OpenCore which will detect also the Windows 10 install and allow booting into it. So no dualboot on one device.
 
-The additional benefit of having 2 boot devices is that both can be independently 
+The additional benefit of having 2 boot devices is that both can be independently booted from via the bios.
+
+Installation order will be Windows10 first to get the system up and running, to check that everything is ok and to configure the Aquacomputer components. After that OSX is being installed.
 
