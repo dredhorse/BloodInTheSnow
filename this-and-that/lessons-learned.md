@@ -26,10 +26,11 @@ Air Pressure Testing is an easy and hassle free way to test if your build is lea
 * Get yourself an air pressure testing unit, either from EK or Aquacomputer or build your own. 
 * 15 Minutes without loosing any air \(Do NOT use a high pressure to test\) means that normally the system is fine.
 * Start Testing directly in the beginning with testing any component you want to use. 
+* Get yourself a female / female extension or two to hook up to the tube and close it.
 * During building of the custom loop test those extensions to make sure they are safe.
 * At the end do a final test of the full loop.
 
-If air is leaking use some water with Dishwashing Liquid togehter Q-Tips or similar to find any leaks.
+If air is leaking use some water with Dishwashing Liquid together Q-Tips or similar to find any leaks.
 
 ## Theme for the Build
 
