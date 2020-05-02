@@ -32,6 +32,8 @@ Air Pressure Testing is an easy and hassle free way to test if your build is lea
 
 If air is leaking use some water with Dishwashing Liquid together Q-Tips or similar to find any leaks.
 
+Testing all components before you install them will help you around issues like I had where my reservoir was leaking at the top \(not really that important\). Hunting that down was quite a hassle, I did start "cutting" the loop in half and testing only that part. After I found the part which was loosing air I "cut" that again and so on.
+
 ## Theme for the Build
 
 If you go for a black, white and some color theme  and don't care which part has which color you are save, go ahead.
