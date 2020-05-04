@@ -3,7 +3,7 @@
 [Aqua Computer](https://aquacomputer.de/) is a german company producing some quite interesting parts for custom watercooling. 
 
 {% hint style="info" %}
-This is not a negative review of parts from AquaComputer, more a list of things I found out later on because I couldn't read correctly or it wasn't that obvious.
+This is not a negative review of parts from AquaComputer, more a list of things I found out later on. Either because I couldn't read correctly or it wasn't that obvious.
 {% endhint %}
 
 ## D5 Next pump
