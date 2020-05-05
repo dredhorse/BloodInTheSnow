@@ -36,3 +36,26 @@ The change log will start here
 
 In this area you can find some information which is related to SnowWhite but can't directly be put under the other chapters. Some of it is still work in progress so tread lightly. Get a closer look in [here.](this-and-that/whats-in-here.md)
 
+## Back to the Future
+
+When you have come to this place in my documentation you will wonder what else is there to do?
+
+Well....
+
+Quite a lot really.
+
+I have already 2 other mayor projects in the pipelines for the next 2 years.
+
+1. Custom Sleeved Cables
+2. Rigid Tubing
+
+And of course making changes which are necessary to keep the system running like updates and fine tuning.
+
+So keep coming back.
+
+## Feedback
+
+I value feedback so feel free to create [issues on github ](https://github.com/dredhorse/SnowWhite/issues)for questions, comments or other things you would like to discuss.
+
+
+
