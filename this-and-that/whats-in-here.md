@@ -12,6 +12,10 @@ I keep on learning with everything I do, and I like to share the [lessons I lear
 
 Here are some [Tips and Tricks](tips-and-tricks.md) which don't fit into Lessons Learned, also some Links to other resources.
 
+## Aqua Computer Components
+
+Some information about the [Aqua Computer Components](aquacomputer.md) I'm using which I find useful and wanted to share.
+
 ## LianLi O11 Dynamics XL Review
 
 So what do I think about the case after I created a hackintosh in it? [Find it out and be flubbergasted.](lianli-o11-dynamics-xl-review/)
