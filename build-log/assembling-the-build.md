@@ -37,11 +37,17 @@ In theory the motherboard should be able to control the watercooling system. It 
 
 Afaik Corsair Commander and the other products going a long with it can be configured in Windows AND keep their settings during reboot into OSX. I didn't check this either.
 
-During my search for knowledge I came upon the procuts from Aquacomputer which offer quite some flexibility, still no direkt OSX support. 
+During my search for knowledge I came upon the products from Aquacomputer which offer quite some flexibility, still no direkt OSX support. 
+
+### OSX and Windows
+
+I can configure the products from Aquacomputer in Windows. As long as Windows is running the Aquasuite software can control all components and retrieve more information from the OS, like CPU internal temperature. So when I run Windows I have a lot more control.
+
+When I run OSX the components will work with the internal programming and the sensors which are available to them without the software. So we will see how this works out in the end.
 
 ### Temperature
 
-The aquaero will messure the temperature and will control the speed of the components. 
+The aquaero will consume the temperature values and will control the speed of the components based on it.
 
 #### Coolant Temperature:
 
@@ -49,7 +55,7 @@ The D5 Next Pump directly provides the temperature of the cooling liquid and als
 
 #### CPU Temperature:
 
-The cuplex kryos next vision has a temperature sensor build in and will be used to transfer temperature information of the CPU to the aquero
+The cuplex kryos next vision has a temperature sensor build in and will be used to transfer temperature information of the CPU to the aquero. As the sensor is on the cooler itself I will need to get the delta between internal CPU sensor and the cooler sensor. We will see how that works.
 
 #### Air Temperature:
 
@@ -65,7 +71,7 @@ Pump and Fan Speed will be controlled based on coolant temperature and outside t
 
 I aim for a max pump speed which is still not noticeable and for a medium during normal operation. 
 
-Fans should start with bottom and top fans spinning and ramping up, than side and back kicking in.
+Fans should start with bottom and top fans spinning and ramping up, then side and back kicking in.
 
 This should give a good amount of cooling with low noise.  
 
@@ -86,6 +92,10 @@ The CPU Cooler can be controlled via USB or by temperature. I need to see what i
 #### Front and Reservoir
 
 The front and reservoir rgb will be connected via adapters and will be controlled via the farbwerk360.
+
+#### Light Strip
+
+I added a light strip behind the bottom radiator which can be connected directly to the farbwerk360.
 
 #### Fans
 
@@ -113,9 +123,11 @@ I screwed in the additional mounting material for the M2 cards, inserted the sto
 
 The 2,5" SSDs and the Firecuda I mounted into the removable drive cages and inserted them carefully into the drive bays. Worked like a charm.
 
-Boot Order will be the OSX Disk first which will than boot OpenCore which will detect also the Windows 10 install and allow booting into it. So no dualboot on one device.
+Boot Order will be the OSX Disk first which will then boot OpenCore which will detect also the Windows 10 install and allow booting into it. So no dualboot on one device.
 
-The additional benefit of having 2 boot devices is that both can be independently booted from via the bios.
+Also the backup disk of OSX will be fully bootable by itself, which allows to have an older version of the bootloader available when you want to upgrade.
+
+The additional benefit of having 3 independent boot devices is that all can be independently booted from via the bios.
 
 Installation order will be Windows10 first to get the system up and running, to check that everything is ok and to configure the Aquacomputer components. After that OSX is being installed.
 
