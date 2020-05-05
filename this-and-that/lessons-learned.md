@@ -19,7 +19,7 @@ Probably best way to approach custom watercooling is the following:
 
 I personally did point 7 - 10 before I had the case which lead to a lot of redesign and some after orders and returns mainly on the fittings side.
 
-## Air Pressure Testing
+## Air Pressure Leak Testing
 
 Air Pressure Testing is an easy and hassle free way to test if your build is leaking. I would still do a Wet Run in the end though.
 

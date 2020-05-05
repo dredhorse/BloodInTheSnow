@@ -26,5 +26,7 @@ But to keep the cables in place, especially the fans are a pain because of the 2
 
 Keeping the case nice and tidy.
 
+## Footers
 
+I got magnetic mounts for M3 screws which I screwed under all the Aqua Computer components. That makes it a lot easier to position them as the case is made from steel.
 
