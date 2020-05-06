@@ -91,3 +91,9 @@ Now fill the system with coolant and let the cooling part run for some time.
 
 Than you can boot up your new computer.
 
+## Corsair RMX 850 PSU
+
+Lucky for Corsair that there aren't so many white PSU around, because their cables suck from a visual point of view. At least for the GPU and the mainboard. See my comments [here.](../build-log/assembling-the-build-1/side-compartment.md#power-cables)
+
+So you can either spend more money by getting some custom made cables from for example CableMod or you do your own custom cables. I will do the later in the future and save atm the money.
+

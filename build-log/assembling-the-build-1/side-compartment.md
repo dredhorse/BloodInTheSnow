@@ -12,6 +12,12 @@ I also documented the everything and labeled the cables a little bit to have it 
 
 ## Power Cables
 
+The PSU comes with white cables. Unfortunately those are not just normal white cables with combs but cables put into round cable sleeves. And the cables for the GPU are even a Y-splitted cable at the end.
+
+That doesn't really look that nice for the GPU and mainboard.
+
+As the next project will be customised cables I won't pay for additional cables from CableMod, I will have to live with it.
+
  
 
 
