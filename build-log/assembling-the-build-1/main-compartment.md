@@ -46,7 +46,11 @@ Before I could start filling the tubes with coolant I found an issue with the[ D
 
 So I went and started working on the [Side Compartment.](side-compartment.md)
 
-After the sata power extension arrived I finished connection up the pump and started filling the tubes.
+After the sata power extension arrived I finished connection up the pump. A little issue is that the sata power connector keeps on disconnecting when there is a pull on the cable, will need to figure out if it works or if I need to find a solution for it.
+
+But now for finally filling the tubes.
+
+
 
 
 
