@@ -97,3 +97,23 @@ Lucky for Corsair that there aren't so many white PSU around, because their cabl
 
 So you can either spend more money by getting some custom made cables from for example CableMod or you do your own custom cables. I will do the later in the future and save atm the money.
 
+## Spaghetti
+
+Your case can never be big enough. I did choose the XL version because I did know that I needed the space for the watercooled GPU \(most versions don't fit in the PCI slot in the smaller case\) and because of the size in general.
+
+And with all the different components it still became a battle.
+
+I think I did won though.
+
+At the end this get's me thinking though about the upcoming project to customize the cableing. For sure making customised cables for CPU / GPU / SATA power and Molex would help a lot with the too long or ugly looking cables.
+
+All other cables though \(fans / RGB / etc\) would have a negative effect as the diameter of those cables would increase.
+
+I'm looking forward to fans which have better cabling options \(like connectors at the fans, chaining etc\).
+
+Truth to be told I wouldn't have those big issues if I would stay with Windows as support for Windows with software to control components is a lot better. And of course without my RGB Lasershow it would have been a lot easier too. Or just go with normal chaining of the fans.
+
+Using the Aquacomputer components adds a lot of complexity too, using a Bios managed approach with the help of some additional programs in Windows would have also made it easier.
+
+Oh well, at least now I should have a fully customisable autonomous managed system.
+
