@@ -12,8 +12,8 @@ The hackintosh itself will have the following components:
 | PSU | [Corsair RMX850 white](https://www.corsair.com/eu/en/Categories/Products/Power-Supply-Units/RMx-White-Series%E2%84%A2-RM850x-%E2%80%94-850-Watt-80-PLUS%C2%AE-Gold-Certified-Fully-Modular-PSU-%28EU%29/p/CP-9020156-EU) |
 | Fans | [Corsair LL 120 RGB Dual Light Loop PWM](https://www.corsair.com/de/en/Categories/Products/Fans/ml-config/p/CO-9050072-WW) |
 | Wifi / Bluetooth | [MQUPIN fenvi T919 Wireless](https://www.amazon.com/fenvi-Continuity-BCM94360CD-1750Mbps-Beamforming/dp/B07VCCZS54) |
-| OSX M2 |  |
-| WIN10 M2 |  |
+| OSX M2 | Samsung 970 Evo Plus |
+| WIN10 M2 | ADATA XPG SX8200 Pro |
 | OSX Backup | Samsung EVO 850 500 GB |
 | OSX FileVault | Samsung EVO 850 250 GB |
 | Mass Storage | Seagate Firecuda 2 TB 2,5" |
