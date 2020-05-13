@@ -1,3 +1,7 @@
+---
+description: 'Skin as white as snow, lips as red as blood and hair as black as night.'
+---
+
 # SnowWhite, a hackintosh story
 
 ## Welcome to my new Hackintosh Build
