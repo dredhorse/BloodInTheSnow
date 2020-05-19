@@ -16,6 +16,14 @@
   * [Main Compartment](build-log/assembling-the-build-1/main-compartment.md)
   * [Side Compartment](build-log/assembling-the-build-1/side-compartment.md)
 
+## Install Log
+
+* [Bios Configuration Guide](install-log/bios-configuration-guide.md)
+* [Windows 10](install-log/windows-10.md)
+* [macOS Catalina](install-log/macos-catalina/README.md)
+  * [Bootstick macOS Catalina 10.15.4](install-log/macos-catalina/bootstick-macos-catalina-10.15.4.md)
+  * [Installing macOS Catalina](install-log/macos-catalina/installing-macos-catalina.md)
+
 ## This and that
 
 * [Whats in here?](this-and-that/whats-in-here.md)
@@ -26,12 +34,4 @@
   * [Airflow in the LianLi O11 Dynamics XL](this-and-that/lianli-o11-dynamics-xl-review/airflow-in-the-lianli-o11-dynamics-xl.md)
 * [Using gitbook to generate the documentation](this-and-that/using-gitbook-to-generate-the-documentation.md)
 * [Resources](this-and-that/resources.md)
-
-## Install Log
-
-* [Bios Configuration Guide](install-log/bios-configuration-guide.md)
-* [Windows 10](install-log/windows-10.md)
-* [macOS Catalina](install-log/macos-catalina/README.md)
-  * [Bootstick macOS Catalina 10.15.4](install-log/macos-catalina/bootstick-macos-catalina-10.15.4.md)
-  * [Installing macOS Catalina](install-log/macos-catalina/installing-macos-catalina.md)
 

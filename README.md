@@ -32,7 +32,9 @@ As the hardware is finally there, not complete but at least enough to figure out
 
 ### Install Log
 
-The work log will start here
+And after strugeling with kilometers of cable, missing parts and other shenanigans it finally begins.
+
+First is [Bios](install-log/bios-configuration-guide.md), then [Windows](install-log/windows-10.md) and then the long road to [macOS.](install-log/macos-catalina/bootstick-macos-catalina-10.15.4.md)
 
 ### Change Log
 
