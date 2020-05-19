@@ -52,5 +52,11 @@ prev-lang:kbd 656E2D55 533A30
 This can fix an issue where the boot process is in russian when you are not looking.
 {% endhint %}
 
+Create a Readme file inside the EFI folder with information what you did install with this EFI folder, like OC version etc. 
 
+Duplicate the config.plist file and name it like config.plist\_date\_time
+
+Copy the EFI folder on to the EFI Partition of your BootStick.
+
+You are done.
 
