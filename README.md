@@ -14,6 +14,8 @@ I will keep the information here updated and create additional documents if the 
 
 A copy of this will also be available on [https://dredhorse.github.io/SnowWhite/](https://dredhorse.github.io/SnowWhite/)
 
+> The whole build is based on [AudioGod's Aorus Z390 Master Patched DSDT EFI for Catalina Mini Guide and Discussion](https://www.insanelymac.com/forum/topic/340936-audiogods-aorus-z390-master-patched-dsdt-efi-for-catalina-mini-guide-and-discussion/) on InsanelyMac. Without it and the personal help of AudioGod it would have been a little bit harder to get this working.
+
 ### The Hardware
 
 Hardware is always an issue with a Hackintosh. If you don't get hardware which is supported by Apple directly with drivers there is no way to make it work. One of the reason why certain Wireless / Bluetooth Cards are so popular and why NVidia GPU don't work anymore after High Sierra.
