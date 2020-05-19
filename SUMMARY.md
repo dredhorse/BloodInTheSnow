@@ -31,4 +31,6 @@
 
 * [Bios Configuration Guide](install-log/bios-configuration-guide.md)
 * [Windows 10](install-log/windows-10.md)
+* [macOS Catalina](install-log/macos-catalina/README.md)
+  * [Bootstick macOS Catalina 10.15.4](install-log/macos-catalina/bootstick-macos-catalina-10.15.4.md)
 

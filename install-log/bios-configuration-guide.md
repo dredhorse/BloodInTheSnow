@@ -5,7 +5,7 @@ This chapter is about Bios Configuration. I did use the profile from AudioGod wh
 [Get the necessary files](../this-and-that/resources.md)
 
 {% hint style="info" %}
-If you can't boot into the bios anymore after making changes and see a weird Windows 7 or so boot screen which than boots into your Windows 10 you need to clear the bios and Disable the Above 4GB Decoding which is enabled in Audiogood's profile.
+If you can't boot into the bios anymore after making changes and see a weird Windows 7 or so boot screen which than boots into your Windows 10 you need to clear the bios, load the profile agai and Disable the Above 4GB Decoding which is enabled in AudioGod's profile. After that save your profile again.
 {% endhint %}
 
 ## Flashing the Bios
