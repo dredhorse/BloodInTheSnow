@@ -50,7 +50,7 @@ After the sata power extension arrived I finished connection up the pump. A litt
 
 But now for finally filling the tubes.
 
-
+And finally.... booting.. lasers galore... default configuration 😀
 
 
 

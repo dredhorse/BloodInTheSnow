@@ -26,3 +26,8 @@
   * [Airflow in the LianLi O11 Dynamics XL](this-and-that/lianli-o11-dynamics-xl-review/airflow-in-the-lianli-o11-dynamics-xl.md)
 * [Using gitbook to generate the documentation](this-and-that/using-gitbook-to-generate-the-documentation.md)
 
+## Install Log
+
+* [Bios Configuration Guide](install-log/bios-configuration-guide.md)
+* [Windows 10](install-log/windows-10.md)
+

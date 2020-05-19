@@ -18,15 +18,15 @@ That doesn't really look that nice for the GPU and mainboard.
 
 As the next project will be customised cables I won't pay for additional cables from CableMod, I will have to live with it.
 
-##  Spaghetti \(or cable management\)
+## Spaghetti \(or cable management\)
 
 I then started laying the cables in streams, fixating them a little before I started to plug all of the parts together.
 
-I needed to reroute some cables but it became cleaner and clear very fast. I then started fixating the cables in their intended places. It is still a lot of cables not so clean anymore as before without them.
+I needed to reroute some cables but it became cleaner and clear very fast. I then started fixating the cables in their intended places. As it is still a lot of cables it is not so clean anymore as before without them.
 
 It is almost even getting to the limit of space I have in the case, which is also caused by using the magnetic feet which raise the components a little and I don't route any cable below them.
 
-On the other-side I wouldn't know  how I would habe managed this all without those feet.
+On the other-side I wouldn't know how I would have managed this all without those feet.
 
 A quick run without pump and motherboard did at least show that the LaserShow and Windtunnel works :-\)
 
