@@ -4,11 +4,13 @@ description: 'Skin as white as snow, lips as red as blood and hair as black as n
 
 # SnowWhite, a hackintosh story
 
+![\(c\) http://www.onemoregadget.com/wp-content/uploads/2010/08/snowwhite\_macbook\_sticker.jpg](.gitbook/assets/snowwhite_sticker.png)
+
 ## Welcome to my new Hackintosh Build
 
-Hi, please pardon the dust till my hardware arrives. I will update this documentation with a build log of how I did build my SnowWhite Hackintosh and a install log on how to install OSX Catalina and Windows 10 on this system afterwards.
+Hi, please pardon the dust till my hardware arrives. I will update this documentation with a build log of how I did build my SnowWhite Hackintosh and an install log on how to install OSX Catalina and Windows 10 on this system afterwards.
 
-And finally I will have an change log for all the changes which where needed afterwards to keep the system up and running.
+And finally I will have a change log for all the changes which where needed afterwards to keep the system up and running.
 
 I will keep the information here updated and create additional documents if the need arises due to updates, patches, changes etc.
 
