@@ -40,4 +40,5 @@
 ## Changelog
 
 * [Nothing to see here...](changelog/nothing-to-see-here....md)
+* [Unable to Update Cities:Skylines in macOS Catalina](unable-to-update-cities-skylines-in-macos-catalina.md)
 
