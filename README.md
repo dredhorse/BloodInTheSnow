@@ -54,7 +54,7 @@ Well....
 
 Quite a lot really.
 
-I have already 2 other mayor projects in the pipelines for the next 2 years.
+I have already 2 other major projects in the pipelines for the next 2 years.
 
 1. Custom Sleeved Cables
 2. Rigid Tubing
