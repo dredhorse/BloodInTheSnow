@@ -18,7 +18,7 @@ But because I wanted a challenge and I tend to over-engineer, it will be managed
 | ARGB Adapter for Reservoir and Front Panel | [RGBpx Adapter](https://shop.aquacomputer.de/product_info.php?products_id=3829) | 2 |
 | Connection Flow Sensor to Aquaero | [Connection cable for flow sensor](https://shop.aquacomputer.de/product_info.php?products_id=2763) | 1 |
 | Connection Pump and CPU Cooler to Aquaero | [aquabus cable 4 pins for VISION](https://shop.aquacomputer.de/product_info.php?products_id=3487) | 2 |
-|  |  |  |
+| Some more cables from AquaComputer |  |  |
 
 
 
