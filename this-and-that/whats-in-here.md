@@ -14,7 +14,7 @@ Here are some [Tips and Tricks](tips-and-tricks.md) which don't fit into Lessons
 
 ## Aqua Computer Components
 
-Some information about the [Aqua Computer Components](aquacomputer.md) I'm using which I find useful and wanted to share.
+Some information about the [Aqua Computer Components](aquacomputer/aquacomputer-in-general.md) I'm using which I find useful and wanted to share.
 
 ## LianLi O11 Dynamics XL Review
 

@@ -42,7 +42,7 @@ After some fiddling around I was able to hold the pressure for longer than 15 mi
 
 ## Filling of the Tubes
 
-Before I could start filling the tubes with coolant I found an issue with the[ D5 next pump](../../this-and-that/aquacomputer.md#d5-next-pump). I couldn't supply it with power.
+Before I could start filling the tubes with coolant I found an issue with the[ D5 next pump](../../this-and-that/aquacomputer/aquacomputer-in-general.md#d5-next-pump). I couldn't supply it with power.
 
 So I went and started working on the [Side Compartment.](side-compartment.md)
 
