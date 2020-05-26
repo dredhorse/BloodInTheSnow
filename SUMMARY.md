@@ -37,3 +37,7 @@
 * [Using gitbook to generate the documentation](this-and-that/using-gitbook-to-generate-the-documentation.md)
 * [Resources](this-and-that/resources.md)
 
+## Changelog
+
+* [Nothing to see here...](changelog/nothing-to-see-here....md)
+

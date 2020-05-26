@@ -40,7 +40,7 @@ First is [Bios](install-log/bios-configuration-guide.md), then [Windows](install
 
 ### Change Log
 
-The change log will start here
+The change log will start [here](changelog/nothing-to-see-here....md)
 
 ### This and that
 
