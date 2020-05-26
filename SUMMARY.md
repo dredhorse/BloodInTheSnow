@@ -32,6 +32,7 @@
 * [Tips and Tricks](this-and-that/tips-and-tricks.md)
 * [AquaComputer](this-and-that/aquacomputer/README.md)
   * [AquaComputer in general](this-and-that/aquacomputer/aquacomputer-in-general.md)
+* [Unable to Update Cities:Skylines in macOS Catalina](this-and-that/unable-to-update-cities-skylines-in-macos-catalina.md)
 * [LianLi O11 Dynamics XL Review](this-and-that/lianli-o11-dynamics-xl-review/README.md)
   * [Airflow in the LianLi O11 Dynamics XL](this-and-that/lianli-o11-dynamics-xl-review/airflow-in-the-lianli-o11-dynamics-xl.md)
 * [Using gitbook to generate the documentation](this-and-that/using-gitbook-to-generate-the-documentation.md)
@@ -40,5 +41,4 @@
 ## Changelog
 
 * [Nothing to see here...](changelog/nothing-to-see-here....md)
-* [Unable to Update Cities:Skylines in macOS Catalina](unable-to-update-cities-skylines-in-macos-catalina.md)
 
