@@ -20,5 +20,17 @@ Very good and sturdy. You can't really complain about it.
 
 It is a little bit weird to have the big opening in the bottom to have the bottom front usb connectors cable to be able to pass through completely. But it is understandable as that means they can just use a pre-manufactured cable and don't need to configure it after the put the cable in.
 
+## Space
+
+The case in itself has quite some space, but putting three 360 Radiators into it pushes it to capacity.
+
+And I used slim radiators without push / pull.
+
+If you don't have so much cables \(aka you are not using tons of RGB and electronics to control them\) the side compartment has a lot of space for you and will still look clean.
+
+## My After the Build Thoughts
+
+
+
 
 
