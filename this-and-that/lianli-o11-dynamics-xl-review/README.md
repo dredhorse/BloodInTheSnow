@@ -16,3 +16,9 @@ As they are quite a few and I tried to deliver a good work including pictures ta
 
 ## Build Quality / Looks
 
+Very good and sturdy. You can't really complain about it.
+
+It is a little bit weird to have the big opening in the bottom to have the bottom front usb connectors cable to be able to pass through completely. But it is understandable as that means they can just use a pre-manufactured cable and don't need to configure it after the put the cable in.
+
+
+
