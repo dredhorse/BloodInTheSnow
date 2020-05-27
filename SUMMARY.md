@@ -24,6 +24,7 @@
   * [Bootstick macOS Catalina 10.15.4](install-log/macos-catalina/bootstick-macos-catalina-10.15.4.md)
   * [Installing macOS Catalina](install-log/macos-catalina/installing-macos-catalina.md)
   * [macOS Catalina and USB - USB Maps](install-log/macos-catalina/macos-catalina-and-usb-usb-maps.md)
+  * [Tweaking OpenCore](install-log/macos-catalina/tweaking-opencore.md)
 
 ## This and that
 
