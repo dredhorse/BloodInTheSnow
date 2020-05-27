@@ -14,7 +14,7 @@ Tinu 3.0 BETA 2 \(68\) will not work in macOS Catalina [https://github.com/ITzTr
 
 You can download the macOS ISO via the AppStore or you can use [gibMacOS](https://github.com/corpnewt/gibMacOS) and put it somewhere. You then need to point Tinu to the correct location.
 
-After you created the bootstick you then need to mount the EFI partition, either with Tinu, Clover Configurator, ESP Mounter Pro or other.
+After you created the bootstick you then need to mount the EFI partition, either with Tinu, Clover Configurator, ESP Mounter Pro, [MountEFI](https://github.com/Andrej-Antipov/MountEFI) or other.
 
 Unpack the OpenCore zip from AudioGod \(I did use version OpenCore 058 Z390 Master 1,1 040520 \) and copy the EFI folder to a save place.
 

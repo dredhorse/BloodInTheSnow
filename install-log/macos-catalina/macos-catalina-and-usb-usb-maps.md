@@ -33,7 +33,7 @@ Keep in mind that SS are USB3 ports and HS are the USB2 ports.
 
 But looking into the info.plist file of this kext you will see the following
 
-INSERT PIC HERE
+![USBPorts.kext](../../.gitbook/assets/info.plist-2020-05-26-11-51-59.png)
 
 So the following Ports are enabled:
 
@@ -49,7 +49,7 @@ So the following Ports are enabled:
 * **HS11:** Rear USB 2 \(all ports\)
 * **HS13:** Internal USB2
 
-INSERT PIC OF Port Layout here
+![Back Panel Connectors](../../.gitbook/assets/z390_aorus_backpanellayout-with-names.png)
 
 
 

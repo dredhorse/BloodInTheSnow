@@ -1,5 +1,7 @@
 ---
-description: Sherlock Holmes and the mystery of the "Too many open files"
+description: >-
+  Sherlock Holmes and the mystery of the "Too many open files" or Why does Steam
+  Client fails with Disk Write Error on macOS Catalina
 ---
 
 # Unable to Update Cities:Skylines in macOS Catalina
@@ -245,7 +247,7 @@ sysctl kern.maxprocperuid
 kern.maxprocperuid: 2048
 ```
 
-But is at an issue? 
+But is that an issue? 
 
 Looks like it could be if you read this [answer.](https://apple.stackexchange.com/questions/296111/macos-sierra-ulimit-maxproc-only-2500)
 
@@ -271,6 +273,43 @@ Oh well, and what about the side effects? What does our doctor tell us?
 I tried running lsof in the vm but it didn't cause the issues described. But are we sure about the behaviour in the long run?
 
 So perhaps we could make this work temporarily? Would this work without changing **maxproc** ?
+
+## The solution
+
+After some testing I did settle for changing the value temporary instead for ever. Which of course also means that I will need to redo this again and again if the need arises and Steam doesn't fix their app.
+
+Running the following command in shell
+
+```text
+sudo launchctl limit maxfiles 524288 2147483647
+```
+
+will give you
+
+```text
+launchctl limit                                
+	cpu         unlimited      unlimited      
+	filesize    unlimited      unlimited      
+	data        unlimited      unlimited      
+	stack       8388608        67104768       
+	core        0              unlimited      
+	rss         unlimited      unlimited      
+	memlock     unlimited      unlimited      
+	maxproc     522            1044           
+	maxfiles    524288         2147483647
+```
+
+Close steam, start steam, go do download, start update of Cities:Skylines.
+
+{% hint style="success" %}
+Update is working! At least if you have more than 40GB of harddrive space in total 😀
+{% endhint %}
+
+A reboot will clear this value.
+
+For the adventurous I have edited the original gist mentioned above to only change the values for maxfiles, you can find the gist [here.](https://gist.github.com/dredhorse/786e326aa7253fa31166e6f56855718a)
+
+![https://www.pinterest.com/pin/359936195212852897/ ](../.gitbook/assets/itselementary.jpg)
 
 
 

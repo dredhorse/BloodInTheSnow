@@ -8,7 +8,13 @@ Ok, not that problematic really except with the strange quirk that the installat
 
 Boot from the USB Stick and Select **Install macOS Catalina \(external\)**
 
-If you get a russian interface change the language as I show in the pictures. 
+If you get a russian interface change the language as I show in the pictures or try to use the **back** key to get to a selection screen.
+
+![Russian Installation Dialogue](../../.gitbook/assets/russianinstall.jpg)
+
+![Change language in Menu bar](../../.gitbook/assets/changelanguageinrussian.jpg)
+
+![English at least](../../.gitbook/assets/changelanguageinenglish.jpg)
 
 {% hint style="warning" %}
 Don't go ahead even it the tools will change to english. The installation under the hood will still use russian and you will end up with russian partition names and logs. 

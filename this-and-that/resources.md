@@ -19,6 +19,7 @@ I used 3 USB Boot Sticks, one for the Bios and Profiles, one for Windows 10 and 
 * MacSerial which can be automatically downloaded via GenSMBIOS
 * Hackintool from [https://github.com/headkaze/Hackintool](https://github.com/headkaze/Hackintool)
 * CloverConfigurator \(for mounting the EFI\) from [https://mackie100projects.altervista.org/download-clover-configurator/](https://mackie100projects.altervista.org/download-clover-configurator/)
-* 
+* MountEFI \(an other option to mount EFI from shell\) from [https://github.com/Andrej-Antipov/MountEFI](https://github.com/Andrej-Antipov/MountEFI)
+
 
 
