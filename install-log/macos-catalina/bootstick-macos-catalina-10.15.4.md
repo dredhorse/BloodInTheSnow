@@ -2,7 +2,7 @@
 
 And so it begins.
 
-Like before grab [all the stuff ](../../this-and-that/resources.md)you need before proceeding \(which means also the [Bios\)](../bios-configuration-guide.md)
+Like before grab [all the stuff ](../../this-and-that/resources.md)you need before proceeding \(which also means the [Bios\)](../bios-configuration-guide.md)
 
 ## Creating the Bootstick
 
@@ -24,13 +24,21 @@ Rename the duplicated one into something like config.plist\_org
 
 Run GENSMBIOS and install MacSerial if necessary
 
+![](../../.gitbook/assets/gensmbios-2020-05-12-12-24-18.png)
+
 {% hint style="info" %}
 This will generate unique information for your install which is required to make iMessage and other Apple products work.
 {% endhint %}
 
 Link to config.plist from open core
 
+![](../../.gitbook/assets/gensmbios-2020-05-12-12-25-17.png)
+
+![](../../.gitbook/assets/gensmbios-2020-05-12-12-26-12.png)
+
 Generate SMBIOS using iMacPro1,1
+
+![](../../.gitbook/assets/gensmbios-2020-05-12-12-30-07.png)
 
 {% hint style="info" %}
 You can check your SerialNumber on [https://checkcoverage.apple.com/](https://checkcoverage.apple.com/) 
@@ -40,16 +48,22 @@ You should get an error saying that the SerialNumber does NOT exist. If it does 
 
 Generate UUID
 
+![](../../.gitbook/assets/gensmbios-2020-05-12-12-37-40.png)
+
 quit GenSMBIOS
 
 You can use PlistEditPro to check the values.
+
+![](../../.gitbook/assets/config.plist-2020-05-12-12-40-19.png)
 
 Also change the following Value in Root/NVRAM/Add/7c…..82/
 
 prev-lang:kbd 656E2D55 533A30
 
+![](../../.gitbook/assets/config.plist-2020-05-12-13-56-05.png)
+
 {% hint style="info" %}
-This can fix an issue where the boot process is in russian when you are not looking.
+This can fix an issue where the install process is in russian when you are not looking.
 {% endhint %}
 
 Create a Readme file inside the EFI folder with information what you did install with this EFI folder, like OC version etc. 
@@ -59,4 +73,10 @@ Duplicate the config.plist file and name it like config.plist\_date\_time
 Copy the EFI folder on to the EFI Partition of your BootStick.
 
 You are done.
+
+{% hint style="info" %}
+I also found some interesting approaches to keep track of the EFI folder in git which I describe [a little bit later](../../this-and-that/tracking-efi-folder-in-git.md).
+{% endhint %}
+
+
 
