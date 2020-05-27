@@ -307,9 +307,19 @@ Update is working! At least if you have more than 40GB of harddrive space in tot
 
 A reboot will clear this value.
 
-For the adventurous I have edited the original gist mentioned above to only change the values for maxfiles, you can find the gist [here.](https://gist.github.com/dredhorse/786e326aa7253fa31166e6f56855718a)
+But now an other issue creeps up. Cities: Skylines will complain that I don't have access to my install directory. 😞
+
+So there are two options:
+
+1\) keeping it temporary, so running the launchctl limit line every time before I run Cities: Skylines
+
+2\) Using the approach to keep those settings permanently configured.
+
+So I have edited the original gist mentioned above to only change the values for maxfiles, you can find the gist [here.](https://gist.github.com/dredhorse/786e326aa7253fa31166e6f56855718a)
 
 ![https://www.pinterest.com/pin/359936195212852897/ ](../.gitbook/assets/itselementary.jpg)
 
+But I still haven't decided which option to use.
 
+![http://adsarchive.com/snow-white-sherlock-holmes/](../.gitbook/assets/snowholmest.jpg)
 
