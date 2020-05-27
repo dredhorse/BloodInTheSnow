@@ -1,6 +1,10 @@
+---
+description: Sherlock Holmes and the mystery of the "Too many open files"
+---
+
 # Unable to Update Cities:Skylines in macOS Catalina
 
-This is something which caused me some pain, especially as Steam Support can only post link to there FAQ as it seems.
+This is something which caused me some pain, especially as Steam Support can only post links to their FAQ as it seems.
 
 But after trying my best Sherlock Holmes impression I got it solved.
 
@@ -18,7 +22,7 @@ I looked around the internet and tried Steam Support, which weren't helpful at a
 
 Well of course there was an issue on my side, but  other games installed fine. I even tried another new drive, I tried it on the boot device and I did any other thing I could think off.
 
-But it looks like troubleshooting their product ends at supplying links to a FAQ if you use steam support instead of really solving the issue, and the issue is partly their issue.
+But it looks like troubleshooting their product ends at supplying links to a FAQ if you use steam support instead of really solving the issue, and the problem is partly their issue.
 
 ## The hunt for the culprit
 
@@ -61,15 +65,212 @@ Well, I will give them a link to this webpage because I doubt it will be handled
 
 And I will also put a link in all of the threads I started so other people can solve the mystery.
 
-![https://www.pinterest.com/pin/359936195212852897/](../.gitbook/assets/itselementary.jpg)
+![http://www.quickmeme.com/meme/3pce9o](../.gitbook/assets/mysterysolved.jpg)
 
-## The solution
+## More background
 
-Now the next search started, after figuring out that steam opens to many files during it's update process how to change it.
+Now the next search started, after figuring out that steam opens to many files during it's update process,  how can you fix the issue.
 
 {% hint style="info" %}
 BTW: I have LOT's of assets included in Cities:Skylines so I guess this is not a common issue.
 {% endhint %}
+
+So let's take a look into those open file limits first.
+
+```text
+sysctl kern.maxfiles
+kern.maxfiles: 49152
+```
+
+That is the maximum files allowed \(I think at least\)
+
+```text
+sysctl kern.maxfilesperproc
+kern.maxfilesperproc: 24576
+```
+
+The files per process, but there is more.
+
+```text
+ulimit -a
+-t: cpu time (seconds)              unlimited
+-f: file size (blocks)              unlimited
+-d: data seg size (kbytes)          unlimited
+-s: stack size (kbytes)             8192
+-c: core file size (blocks)         0
+-v: address space (kbytes)          unlimited
+-l: locked-in-memory size (kbytes)  unlimited
+-u: processes                       2784
+-n: file descriptors                256
+```
+
+and there is
+
+```text
+launchctl limit
+	cpu         unlimited      unlimited
+	filesize    unlimited      unlimited
+	data        unlimited      unlimited
+	stack       8388608        67104768
+	core        0              unlimited
+	rss         unlimited      unlimited
+	memlock     unlimited      unlimited
+	maxproc     2784           4176
+	maxfiles    256            unlimited
+```
+
+None of this maps in any way to the 2048 which would be the next successful file descriptor which opensnoop would return. BUT... that **maxfiles 256** is still the culprit. 
+
+![https://memegenerator.net/instance/80941624/sherlock-holmes-meme-if-we-look-closely-the-questions-and-the-answers-lie-within-the-data](../.gitbook/assets/if-we-look-closely-the-questions-and-the-answers-lie-within-the-data.jpg)
+
+## Solving the riddle
+
+Hunting through the internet provides lot's of information on how to get of the "Too Many Files Open" issue.
+
+One very good read and also useful is the answer on [apple.stackexchange.com](https://apple.stackexchange.com/questions/366187/why-does-setting-the-hard-limit-for-maxfiles-to-unlimited-using-launchctl-lim) 
+
+That information comes in handy when you take a look at the solution, but there is more.
+
+> Should I really fiddle around with a nice and working Hackintosh \(or macOS\) because of a game? What can happen in a worst case scenario? A lot....
+
+So let's gather all the material from the crime scene and retreat back into the lab.
+
+So I created a macOS VM \(which I wanted to do for testing nevertheless\) in[ VMware Fusion](https://www.vmware.com/products/fusion.html) and did take a closer look.
+
+```text
+sysctl kern.maxfiles
+kern.maxfiles: 12288
+
+sysctl kern.maxfilesperproc
+kern.maxfilesperproc: 10240
+
+ulimit -a
+-t: cpu time (seconds)              unlimited
+-f: file size (blocks)              unlimited
+-d: data seg size (kbytes)          unlimited
+-s: stack size (kbytes)             8192
+-c: core file size (blocks)         0
+-v: address space (kbytes)          unlimited
+-l: locked-in-memory size (kbytes)  unlimited
+-u: processes                       522
+-n: file descriptors                256
+
+launchctl limit
+	cpu         unlimited      unlimited      
+	filesize    unlimited      unlimited      
+	data        unlimited      unlimited      
+	stack       8388608        67104768       
+	core        0              unlimited      
+	rss         unlimited      unlimited      
+	memlock     unlimited      unlimited      
+	maxproc     522            1044           
+	maxfiles    256            unlimited 
+```
+
+Well....
+
+{% hint style="info" %}
+The VM only has 2 CPU kernels and 50 GB of harddrive space. So the values I showed you above might vary but the maxfiles is still 256
+{% endhint %}
+
+So in the stackexchange article above we learned that we have a softlimit \(256\) and a hardlimit \(unlimited\) of maxfiles.
+
+How do we change the value of 256 to a value which works? And will this fix the issue?
+
+{% hint style="success" %}
+It will
+{% endhint %}
+
+So, let's install steam and then City:Skylines.
+
+{% hint style="danger" %}
+Result:   
+  
+Same issue, Disk Write Error when the Update is triggered. And again a "Too Many Open Files"
+{% endhint %}
+
+So we confirmed our suspicion: 
+
+It has nothing to do with the system being a hackintosh, the hardware or the phase of the moon. And neither is the butler the murder.
+
+## The hunt begins
+
+Figuring out how to change that maximum open files in macOS Catalina is again not that easy, most of the information available is for linux or older versions of macOS.
+
+But truth behold there is something out [there.](https://gist.github.com/tombigel/d503800a282fcadbee14b537735d202c)
+
+So let's try out the [comment ](https://gist.github.com/tombigel/d503800a282fcadbee14b537735d202c#gistcomment-3288161)to run it in Catalina \(which is really just the steps on how to get this load.sh created\).
+
+After that we restart the VM and take a look again at the values.
+
+```text
+sysctl kern.maxfiles       
+kern.maxfiles: 524288
+
+sysctl kern.maxfilesperproc
+kern.maxfilesperproc: 524288
+
+ulimit -a                  
+-t: cpu time (seconds)              unlimited
+-f: file size (blocks)              unlimited
+-d: data seg size (kbytes)          unlimited
+-s: stack size (kbytes)             8192
+-c: core file size (blocks)         0
+-v: address space (kbytes)          unlimited
+-l: locked-in-memory size (kbytes)  unlimited
+-u: processes                       2048
+-n: file descriptors                524288
+
+launchctl limit            
+	cpu         unlimited      unlimited      
+	filesize    unlimited      unlimited      
+	data        unlimited      unlimited      
+	stack       8388608        67104768       
+	core        0              unlimited      
+	rss         unlimited      unlimited      
+	memlock     unlimited      unlimited      
+	maxproc     2048           2048           
+	maxfiles    524288         524288 
+```
+
+Also there is the issue with:
+
+```text
+Before change:
+sysctl kern.maxprocperuid
+kern.maxprocperuid: 522
+
+After change:
+sysctl kern.maxprocperuid
+kern.maxprocperuid: 2048
+```
+
+But is at an issue? 
+
+Looks like it could be if you read this [answer.](https://apple.stackexchange.com/questions/296111/macos-sierra-ulimit-maxproc-only-2500)
+
+So, because the issue is with the maximum open files I guess we should take a different approach.
+
+Also what about the hardlimit of open files, it is not unlimited anymore? Remember the [link](unable-to-update-cities-skylines-in-macos-catalina.md#solving-the-riddle) I posted above? Does setting the hardlimit to 2147483647 solve our issue there?
+
+```text
+launchctl limit                                      
+	cpu         unlimited      unlimited      
+	filesize    unlimited      unlimited      
+	data        unlimited      unlimited      
+	stack       8388608        67104768       
+	core        0              unlimited      
+	rss         unlimited      unlimited      
+	memlock     unlimited      unlimited      
+	maxproc     2048           2048           
+	maxfiles    524288         2147483647 
+```
+
+Oh well, and what about the side effects? What does our doctor tell us?
+
+I tried running lsof in the vm but it didn't cause the issues described. But are we sure about the behaviour in the long run?
+
+So perhaps we could make this work temporarily? Would this work without changing **maxproc** ?
 
 
 
