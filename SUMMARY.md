@@ -25,6 +25,7 @@
   * [Installing macOS Catalina](install-log/macos-catalina/installing-macos-catalina.md)
   * [macOS Catalina and USB - USB Maps](install-log/macos-catalina/macos-catalina-and-usb-usb-maps.md)
   * [Tweaking OpenCore](install-log/macos-catalina/tweaking-opencore.md)
+* [Overclocking](install-log/overclocking.md)
 
 ## This and that
 

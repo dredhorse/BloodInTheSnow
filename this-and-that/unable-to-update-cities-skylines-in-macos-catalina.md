@@ -274,9 +274,9 @@ I tried running lsof in the vm but it didn't cause the issues described. But are
 
 So perhaps we could make this work temporarily? Would this work without changing **maxproc** ?
 
-## The solution
+## Getting Closer
 
-After some testing I did settle for changing the value temporary instead for ever. Which of course also means that I will need to redo this again and again if the need arises and Steam doesn't fix their app.
+So let's see if the assumptions will hold up.
 
 Running the following command in shell
 
@@ -307,15 +307,37 @@ Update is working! At least if you have more than 40GB of harddrive space in tot
 
 A reboot will clear this value.
 
-But now an other issue creeps up. Cities: Skylines will complain that I don't have access to my install directory. 😞
+But now an other issue creeps up. Paradox Launcher will complain to not have access to the game directory.
 
-So there are two options:
+![](../.gitbook/assets/citi_skylines-access-to-gamedir-error.png)
 
-1\) keeping it temporary, so running the launchctl limit line every time before I run Cities: Skylines
+Is that important? Don't know because afterwards it was fine.
+
+Started Cities: Skylines which came up with another error.
+
+![](../.gitbook/assets/cities_skylines_error.png)
+
+Is that important?
+
+And how will the Paradox Launcher behave when I use 
+
+```text
+sudo launchctl limit maxfiles 524288 2147483647
+```
+
+Same behaviour for the Paradox Launcher and Cities:Skylines.
+
+## The solution
+
+Final Verdict isn't in yet.
+
+There are two options:
+
+1\) keeping it temporary, so running the launchctl limit line every time  I get the Disk Write Error again
 
 2\) Using the approach to keep those settings permanently configured.
 
-So I have edited the original gist mentioned above to only change the values for maxfiles, you can find the gist [here.](https://gist.github.com/dredhorse/786e326aa7253fa31166e6f56855718a)
+I have edited the original gist mentioned above to only change the values for maxfiles, you can find the gist [here.](https://gist.github.com/dredhorse/786e326aa7253fa31166e6f56855718a)
 
 ![https://www.pinterest.com/pin/359936195212852897/ ](../.gitbook/assets/itselementary.jpg)
 
