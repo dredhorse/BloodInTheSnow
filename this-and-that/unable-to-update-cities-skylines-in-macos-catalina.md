@@ -127,7 +127,7 @@ None of this maps in any way to the 2048 which would be the next successful file
 
 ## Solving the riddle
 
-Hunting through the internet provides lot's of information on how to get of the "Too Many Files Open" issue.
+Hunting through the internet provides lot's of information on how to get rid of the "Too Many Files Open" issue.
 
 One very good read and also useful is the answer on [apple.stackexchange.com](https://apple.stackexchange.com/questions/366187/why-does-setting-the-hard-limit-for-maxfiles-to-unlimited-using-launchctl-lim) 
 
@@ -327,6 +327,8 @@ sudo launchctl limit maxfiles 524288 2147483647
 
 Same behaviour for the Paradox Launcher and Cities:Skylines.
 
+So it looks like those errors are not based on the maxfiles value.
+
 ## The solution
 
 Final Verdict isn't in yet.
@@ -335,7 +337,7 @@ There are two options:
 
 1\) keeping it temporary, so running the launchctl limit line every time  I get the Disk Write Error again
 
-2\) Using the approach to keep those settings permanently configured.
+2\) Using the approach from the gist to keep those settings permanently configured.
 
 I have edited the original gist mentioned above to only change the values for maxfiles, you can find the gist [here.](https://gist.github.com/dredhorse/786e326aa7253fa31166e6f56855718a)
 
