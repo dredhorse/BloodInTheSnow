@@ -46,7 +46,7 @@ As the hardware is finally there, not complete but at least enough to figure out
 
 ### Install Log
 
-And after strugeling with kilometers of cable, missing parts and other shenanigans it finally begins.
+And after struggling with kilometers of cable, missing parts and other shenanigans it finally begins.
 
 First is [Bios](install-log/bios-configuration-guide.md), then [Windows](install-log/windows-10.md) and then the long road to [macOS.](install-log/macos-catalina/bootstick-macos-catalina-10.15.4.md)
 
@@ -59,6 +59,8 @@ The change log will start [here](changelog/nothing-to-see-here....md)
 In this area you can find some information which is related to SnowWhite but can't directly be put under the other chapters. Some of it is still work in progress so tread lightly. Get a closer look in [here.](this-and-that/whats-in-here.md)
 
 ## Back to the Future
+
+
 
 When you have come to this place in my documentation you will wonder what else is there to do?
 
