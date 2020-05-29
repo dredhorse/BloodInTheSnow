@@ -16,11 +16,15 @@ The D5 Next is a D5 waterpump with RGB, build in temperature sensor and flow met
 
 Most annoying part about the pump is the missing documentation on which connector is which. Fan is described but the other 2 are guessing, or you know the connector layout before hand.
 
-INSERT PIC HERE
+![\(c\) AquaComputer](../../.gitbook/assets/d5_next_10.jpg)
+
+> USB \| Fan or Flow \| RGBpx or aquabus
+>
+>             Sata Power
 
 But the most annoying part is that the sata power connection is turned 180 degrees. So if you have an angled sata power connector the cable will go up. Which doesn't work btw because the sata power connector is recessed and there is the pump blocking the cable.
 
-That doesn't really mater perhaps because you will use a sata power extension never the-less to not have more than one sata power connection inside the mainboard compartment of your case, but make sure you have a straight connector.
+That doesn't really matter perhaps because you will use a sata power extension never the-less to not have more than one sata power connection inside the mainboard compartment of your case, but make sure you have a straight connector.
 
 Also if you want to connect the D5 next pump to an aquaero you need a cable for vision which is not supplied by default
 
@@ -33,7 +37,7 @@ Two things needs to be looked at here:
 1. You need the same cable as for the D5 Next Pump to connect the cooler to the aquaero
 2. Getting that cable into the cooler is tricky and not really documented. Also space is really tight so you need to watch out to not break anything when you assemble it again.
 
-INSERT PIC HERE
+![](../../.gitbook/assets/cuplexkryosissue.png)
 
 ## Flow sensor high flow
 
