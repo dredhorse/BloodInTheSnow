@@ -42,6 +42,8 @@ And there is also management, for heat / cooling and the laser shows which can b
 
 As the hardware is finally there, not complete but at least enough to figure out what is missing [let's go.](build-log/assembling-the-build.md)
 
+![A bunch of hardware](.gitbook/assets/bunchofhardware.png)
+
 ### Install Log
 
 And after strugeling with kilometers of cable, missing parts and other shenanigans it finally begins.

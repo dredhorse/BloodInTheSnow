@@ -21,19 +21,31 @@ Does it fit 3 x 360 Radiators? Kinda.
 
 Honestly, it is a TIGHT fit with not a lot of room. If you want to get a clean build use only 2 x 360 Radiators or move the side radiator into the side compartment, because space is tight. I didn't regret using the XSPC radiator at the bottom, it compensates the mounting frame height. So you might want to remove that if you have a higher radiator.
 
+![](../.gitbook/assets/atightfit.png)
+
 On the pictures it might doesn't look that tight but there are no tubes in there yet.
+
+![](../.gitbook/assets/somegreaseneeded.png)
 
 ## Tubing
 
 I went with 16/10 soft tubes because I was told they don't kink to easy. I don't think they are too beefy for this build but they did cause some issues.
 
+![](../.gitbook/assets/tubeinginplace.png)
+
 The main problem I had was to incorporate the flow sensor and a drain valve.  I couldn't get a valve in white and I also didn't want to have it in the main compartment. So I wanted to have it split after the flow sensor and go into the side compartment. That is quite full though.
+
+![](../.gitbook/assets/flowsensor.png)
+
+![](../.gitbook/assets/drainwithlotsofspace.png)
 
 Also because of the tight fit of radiators, fans and fittings I ended up using a lot of 45 angled fittings. 90 degrees wouldn't have helped and some people suggest to avoid them.
 
+![](../.gitbook/assets/somebends.png)
+
 ## Monitoring and Control
 
-In theory the motherboard should be able to control the watercooling system. It has custom fan curves and it might be possible to use different temperatur sensors than the cpu one to control them. I didn't check because I wanted to go a different way.
+In theory the motherboard should be able to control the watercooling system. It has custom fan curves and it might be possible to use different temperature sensors than the cpu one to control them. I didn't check because I wanted to go a different way.
 
 Afaik Corsair Commander and the other products going a long with it can be configured in Windows AND keep their settings during reboot into OSX. I didn't check this either.
 
@@ -79,7 +91,11 @@ This should give a good amount of cooling with low noise.
 
 Oh well... all the RGB Stuff. Unfortunately the farbwerk360 can not be controlled directly via the aquaero. And under OSX the USB option is not possible. So I will use some independent temperature sensors to control the light.
 
+![](../.gitbook/assets/whiteandred.png)
+
 The light theme of the build will be slowly pulsing white with some red put into it. The red becomes more dominant as the temperature rises.
+
+![](../.gitbook/assets/redandwhite.png)
 
 #### Mainboard and GPU
 
