@@ -40,3 +40,7 @@ Misc  -&gt; Tools  -&gt; 0  -&gt; Enabled: YES
 
 ![Enable OpenCore Shell](../../.gitbook/assets/config.plist-enable-uefi-shell.png)
 
+## Hiding unnecessary drives from OpenCore
+
+
+

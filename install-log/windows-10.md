@@ -53,3 +53,5 @@ Also I installed the tools from the different Drive Vendors, Samsung, Seagate an
 
 partition any other drive.
 
+You need to partition drives in macOS first before. Then you boot into Windows, delete the partition you would like Windows to use and than create a new simple Volume out of the free space.
+
