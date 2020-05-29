@@ -31,9 +31,11 @@ I know that those mounting notches are there to be more flexible but I would hav
 
 The Side has even more issues than the Top, there is a massive gap between the radiator and the casing. It is more massive if you mount the radiator in the motherboard compartment but it is still quite big depending on the thickness of the radiator if you mount the radiator in the PSU / Drive \(side\) compartment.
 
-
+![](../../.gitbook/assets/sidewithdrainandgaps.png)
 
 This leads to hot air being pushed into the side compartment if you run the fans in a push configuration. Also through the not covered holes between the side and the mainboard compartment \(even if LianLi is doing a good job there are still some gaps\) the hot air can be circulated back into the mainboard compartment.
+
+![](../../.gitbook/assets/aquaintheside.png)
 
 If you do a pull configuration the question will be if the holes in the case on the side can supply enough air to not suck in hot air from the mainboard compartment.
 
@@ -41,7 +43,7 @@ If you do a pull configuration the question will be if the holes in the case on 
 
 The integrated mounting frame for the radiator sounds like a good idea. Up to the point when you take a look at it.
 
-INSERT Pics here
+![](../../.gitbook/assets/bottomradwithholes.png)
 
 Normally you configure the lower radiator to pull cool air into the case and you would for sure keep a dust filter probably outside the case to keep the dust out.
 
@@ -49,13 +51,19 @@ Unfortunately dust filters which are not directly mounted on top of the fan or r
 
 So some of the air which you will suck through the radiator in a pull configuration will be coming from inside the case and not from the outside.
 
+Also there are quite some other gaps next to the filter.
+
+![](../../.gitbook/assets/gratewithswisscheese.png)
+
+![](../../.gitbook/assets/gratefromtheotherside.png)
+
 ## HardDrive Cages
 
 The case is great for drives, not only lot of mount options for SSDs but also 2 hot swappable drive cages with 2 drive frames.
 
 The only problem is that they sit on top of the PSU in the side compartment and only rely on passive airflow to come through the case holes to be cooled.
 
-INSERT PIC here
+![](../../.gitbook/assets/mainboardconnectionpanel.png)
 
 I had similar issues in my old hackintosh where the Seagate Firecuda drive is lying in the PSU compartment.
 
