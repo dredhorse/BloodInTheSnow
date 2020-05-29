@@ -21,7 +21,7 @@ So let's start with the
 
 The Top is the only direct way \(except the rear mountable fan\) to expel heat out of the case. But it still has issues as the dust-filter \(which you should remove if you use the top as exhaust\) is on top of the radiator. And if you remove the dust-filter you are have a quite decent area under the top cover in which the air can circulate. And you have quite some gaps in which the air can go back into the case too.
 
-INSERT PIC here
+![Unfortunately no before picture available](../../.gitbook/assets/topgapclosed.png)
 
 So if you crank up the airflow through the radiator up to the point where the air can't be pushed out of the top directly the air will be pushed back into the case again.
 
@@ -31,7 +31,7 @@ I know that those mounting notches are there to be more flexible but I would hav
 
 The Side has even more issues than the Top, there is a massive gap between the radiator and the casing. It is more massive if you mount the radiator in the motherboard compartment but it is still quite big depending on the thickness of the radiator if you mount the radiator in the PSU / Drive \(side\) compartment.
 
-INSERT PICS here
+
 
 This leads to hot air being pushed into the side compartment if you run the fans in a push configuration. Also through the not covered holes between the side and the mainboard compartment \(even if LianLi is doing a good job there are still some gaps\) the hot air can be circulated back into the mainboard compartment.
 

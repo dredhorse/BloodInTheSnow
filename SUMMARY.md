@@ -40,6 +40,7 @@
   * [Airflow in the LianLi O11 Dynamics XL](this-and-that/lianli-o11-dynamics-xl-review/airflow-in-the-lianli-o11-dynamics-xl.md)
 * [Using gitbook to generate the documentation](this-and-that/using-gitbook-to-generate-the-documentation.md)
 * [Resources](this-and-that/resources.md)
+* [Outtakes](this-and-that/outtakes.md)
 
 ## Changelog
 
