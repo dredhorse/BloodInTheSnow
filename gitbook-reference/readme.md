@@ -1,0 +1,1 @@
+Like described in the documentation this is only here as reference as the old gitbook cli doesn’t work anymore with the newer web gitbook syntax.
