@@ -15,7 +15,7 @@ There should be a better sentence than this.
 ## macOS Issues \(MI\)
 
 1. Getting a Crash in macOS with Sleep Mode: Sleep Wake failure in EFIFailure code:: 0xffffffff 0x0000001f
-2. I don't have 2 sliders in the Energy Saver, only the one for the Display, might be related to MI 1
+2. I don't have 2 sliders in the Energy Saver, only the one for the Display, this is related to: [https://www.tonymacx86.com/threads/computer-sleep-slider-bar-missing.222369/](https://www.tonymacx86.com/threads/computer-sleep-slider-bar-missing.222369/)
 3. 
 
 
