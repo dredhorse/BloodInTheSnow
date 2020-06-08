@@ -21,7 +21,7 @@ A copy of this will also be available on [https://dredhorse.github.io/SnowWhite/
 {% hint style="info" %}
 There is no tldr; here. It is either read all to the end or don't bother.
 
-1\) Hackintosh is for people who like to tinker and are willing to learn
+1\) A Hackintosh is for people who like to tinker and are willing to learn
 
 2\) I want to give you the full picture before I point out the elephant in the room
 
