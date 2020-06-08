@@ -43,7 +43,8 @@
 * [Resources](this-and-that/resources.md)
 * [Outtakes](this-and-that/outtakes.md)
 
-## Changelog
+## Changelog and Known Issues <a id="changelog-knownissues"></a>
 
-* [Nothing to see here...](changelog/nothing-to-see-here....md)
+* [Known Issues](changelog-knownissues/known-issues.md)
+* [Nothing to see here...](changelog-knownissues/nothing-to-see-here....md)
 

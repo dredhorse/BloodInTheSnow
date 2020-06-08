@@ -50,9 +50,11 @@ And after struggling with kilometers of cable, missing parts and other shenaniga
 
 First is [Bios](install-log/bios-configuration-guide.md), then [Windows](install-log/windows-10.md) and then the long road to [macOS.](install-log/macos-catalina/bootstick-macos-catalina-10.15.4.md)
 
-### Change Log
+### Change Log and Known Issues
 
-The change log will start [here](changelog/nothing-to-see-here....md)
+Well, nothing is more constant than change and there are always bugs, so take a look  [here](changelog-knownissues/nothing-to-see-here....md)
+
+![https://www.amazon.de/Works-Machine-Funny-Programmer-Shrug/dp/B07VJYCW9X](.gitbook/assets/itworksonmymachine.jpg)
 
 ### This and that
 
