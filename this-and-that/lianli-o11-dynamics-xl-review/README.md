@@ -30,7 +30,9 @@ If you don't have so much cables \(aka you are not using tons of RGB and electro
 
 ## My After the Build Thoughts
 
+At the moment the temperatures in the drive area keeps a difference of around .5 C from the outside temperature. I think that is fine, no big issues there as in my other cases.
 
+Other then that I can complain at the moment. Time will tell.
 
 
 
