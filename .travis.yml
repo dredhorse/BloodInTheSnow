@@ -10,12 +10,12 @@ install:
 	- gem install jekyll-readme-index
 
 branches:
-	only:
-		- master
+   only:
+    - master
 
 env:
-	global:
-		- JEKYLL_ENV=production
+  global:
+	  - JEKYLL_ENV=production
 
 notifications:
 	email:
@@ -27,6 +27,3 @@ notifications:
 script:
 	- chmod +x build.sh
 	- build.sh
-
-
-sudo: false
