@@ -1,29 +1,29 @@
 language: ruby
 rvm:
-	- 2.3.1
+  - 2.3.1
 
 install:
-	- bundle install
-	- gem install jekyll
-	- gem install jekyll-sitemap
-	- gem install emoji_for_jekyll
-	- gem install jekyll-readme-index
+  - bundle install
+  - gem install jekyll
+  - gem install jekyll-sitemap
+  - gem install emoji_for_jekyll
+  - gem install jekyll-readme-index
 
 branches:
-   only:
+  only:
     - master
 
 env:
   global:
-	  - JEKYLL_ENV=production
+    - JEKYLL_ENV=production
 
 notifications:
-	email:
-		recipients:
-			- dredhorse@breiden.net
-		on_success: always
-		on_failure: always
+  email:
+     recipients:
+       - dredhorse@breiden.net
+     on_success: always
+     on_failure: always
 
 script:
-	- chmod +x build.sh
-	- build.sh
+    - chmod +x build.sh
+    - build.sh
