@@ -25,3 +25,7 @@ _book
 *.epub
 *.mobi
 *.pdf
+
+# Travis and Jekyll
+.sass-cache
+.jekyll-metadata
