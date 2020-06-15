@@ -23,7 +23,7 @@ notifications:
 
 deploy:
   provider: pages
-  local_dir: ./docs
+  local_dir: docs
   target_branch: master
   email: deploy@travis-ci.org
   name: Deployment Bot
