@@ -14,9 +14,9 @@ And finally I will have a change log for all the changes which where needed afte
 
 I will keep the information here updated and create additional documents if the need arises due to updates, patches, changes etc.
 
-A copy of this will also be available on [https://dredhorse.github.io/SnowWhite/](https://dredhorse.github.io/SnowWhite/) 
+A copy of this will also be available on [https://github.com/dredhorse/SnowWhite](https://github.com/dredhorse/SnowWhite)
 
-![](https://travis-ci.com/dredhorse/SnowWhite.svg?branch=master)
+If you are reading this on GitHub you can get a nicer version on GitBook here: 
 
 > The whole build is based on [AudioGod's Aorus Z390 Master Patched DSDT EFI for Catalina Mini Guide and Discussion](https://www.insanelymac.com/forum/topic/340936-audiogods-aorus-z390-master-patched-dsdt-efi-for-catalina-mini-guide-and-discussion/) on InsanelyMac. Without it and the personal help of AudioGod it would have been a little bit harder to get this working.
 
