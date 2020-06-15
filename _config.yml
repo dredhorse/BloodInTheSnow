@@ -13,6 +13,7 @@ plugins:
     - jekyll-seo-tag
     - jekyll-compose
     - jekyll-redirect-from
+    - github-pages
 
 # Exclude these files from the build process results.
 # Prevents them from showing up in the master branch which 
