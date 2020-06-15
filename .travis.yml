@@ -1,18 +1,32 @@
 language: ruby
-rvm:
-  - 2.5.8
+cache: bundler
 
-install:
-  - bundle install
-
+    # Travis will build the site from gh-pages branch
+    # and deploy the content to master branch
+    # use gh-pages branch to serve for github pages
+    # master branch will be used for deployment
 
 branches:
   only:
     - Source
+script:
+    - JEKYLL_ENV=production bundle exec jekyll build --destination docs
 
-env:
-  global:
-    - JEKYLL_ENV=production
+    # You need to generate a Personal Access Token
+    # https://github.com/settings/tokens
+    # Add this token in environment variable GITHUB_TOKEN in Travis CI repo settings
+
+deploy:
+  provider: pages
+  local-dir: ./docs
+  target-branch: master
+  email: deploy@travis-ci.org
+  name: Deployment Bot
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  on:
+    branch: Source
 
 notifications:
   email:
@@ -20,15 +34,3 @@ notifications:
        - dredhorse@breiden.net
      on_success: always
      on_failure: always
-
-deploy:
-  provider: pages
-  local_dir: docs
-  target_branch: master
-  email: deploy@travis-ci.org
-  name: Deployment Bot
-  skip_cleanup: true
-  token: $GITHUB_TOKEN
-  keep_history: true
-  on:
-    branch: Source
