@@ -3,6 +3,9 @@ title: SnowWhite, a Hackintosh Story
 email: dredhorse@breiden.net
 
 # many other settings
+destination: docs
+repository: dredhorse/SnowWhite
+
 # ...
 
 # Any plugins within jekyll_plugin group from Gemfile
