@@ -1,7 +1,8 @@
 # filename: Rakefile
-task :default do
-	puts "Running CI tasks..."
+task :default => [:jekyll_build]
 
+task :jekyll_build do
+	puts "Running CI tasks..."
 	# Runs the jekyll build command for production
 	# TravisCI will now have a site directory with our
 	# statically generated files.
