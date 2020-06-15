@@ -1,11 +1,10 @@
-language: node_js
-node_js:
-  - "stable"
-cache:
-  directories:
-  - node_modules
-script:
-  - npm run build
+language: ruby
+rvm:
+  - 2.5.8
+
+install:
+  - bundle install
+
 
 branches:
   only:
@@ -24,7 +23,7 @@ notifications:
 
 deploy:
   provider: pages
-  local_dir: docs
+  local_dir: ./docs
   target_branch: master
   email: deploy@travis-ci.org
   name: Deployment Bot
