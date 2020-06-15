@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-  - 2.4.0
+  - 2.5.8
 
 install:
   - bundle install
@@ -23,12 +23,12 @@ notifications:
 
 deploy:
   provider: pages
-  local-dir: ./docs
-  target-branch: master
+  local_dir: ./docs
+  target_branch: master
   email: deploy@travis-ci.org
   name: Deployment Bot
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN
-  keep-history: true
+  skip_cleanup: true
+  token: $GITHUB_TOKEN
+  keep_history: true
   on:
     branch: Source
