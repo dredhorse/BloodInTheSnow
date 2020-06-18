@@ -1,6 +1,6 @@
 # The Hackintosh itself
 
-The hackintosh itself will have the following components:
+The Hackintosh itself will have the following components:
 
 | Component | Name |
 | :--- | :--- |
@@ -16,7 +16,8 @@ The hackintosh itself will have the following components:
 | WIN10 M2 | ADATA XPG SX8200 Pro |
 | OSX Backup | Samsung EVO 850 500 GB |
 | OSX FileVault | Samsung EVO 850 250 GB |
-| Mass Storage | Seagate Firecuda 2 TB 2,5" |
+| Mass Storage | Crucial MX500 2 TB |
+| Backup Storage | Seagate Firecuda 2 TB 2,5"  |
 
-It was perhaps a stupid idea to start this during the Covid-19 lock down. Getting all the things is proving to be problematic.
+It was perhaps a stupid idea to start this during the Covid-19 lockdown. Getting all the things is proving to be problematic.
 

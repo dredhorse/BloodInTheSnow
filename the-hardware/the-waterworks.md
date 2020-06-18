@@ -14,4 +14,7 @@ Cooling of the Hackintosh will be done by the following components:
 | GPU Cooler | [Powercolor Liquid Devil AMD Radeon RX 5700 XT](https://www.powercolor.com/product?id=1573110646) |
 | Pump | [Aqua Computer D5 Next](https://www.aquacomputer.de/newsreader/items/d5-next---die-komplettloesung.html) |
 | Reservoir | [Heatkiller Tube 150 D5 red](https://shop.watercool.de/epages/WatercooleK.sf/en_GB/?ViewObjectPath=%2FShops%2FWatercooleK%2FProducts%2F30204) |
+| Flow Meter | [Aqua Computer Flow Sensor High Flow](https://shop.aquacomputer.de/product_info.php?products_id=2294) |
+
+
 

@@ -1,6 +1,6 @@
 # Tweaking OpenCore
 
-The ZIP from AudioGod has all the information and parts you need to get the hackintosh up and running.
+The ZIP from AudioGod has all the information and parts you need to get the Hackintosh up and running.
 
 But there is always room for tinkering.
 
@@ -10,7 +10,7 @@ This information here is based on the article from [dortania](https://dortania.g
 
 The EFI folder already contains the OpenCanopy.efi file and the needed resources so there is nothing to do there.
 
-The only things which need to be changed is the configuration.
+The only thing which needs to be changed is the configuration.
 
 Misc -&gt; Boot -&gt; PickerMode: External
 
@@ -34,13 +34,15 @@ UEFI -&gt; Drivers and add OpenCanopy.efi
 Tools, for example, UEFI Shell, are very dangerous and MUST NOT appear in production configurations, especially in vaulted ones and protected with secure boot, as they may be used to easily bypass secure boot chain
 {% endhint %}
 
-Only change needed is to configure it.
+The only change needed is to configure it.
 
 Misc  -&gt; Tools  -&gt; 0  -&gt; Enabled: YES
 
 ![Enable OpenCore Shell](../../.gitbook/assets/config.plist-enable-uefi-shell.png)
 
 ## Hiding unnecessary drives from OpenCore
+
+I Still need to write this up.
 
 
 

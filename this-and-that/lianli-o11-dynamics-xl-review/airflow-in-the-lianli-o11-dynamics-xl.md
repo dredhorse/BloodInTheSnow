@@ -1,10 +1,10 @@
 # Airflow in the LianLi O11 Dynamics XL
 
-In hindsight it looks to me that while LianLi has some great ideas in how to build and structure their cases they also just fail in doing so. 
+In hindsight, it looks to me that while LianLi has some great ideas of how to build and structure their cases they also just fail in doing so. 
 
 This was already the case with my old LianLi case \(no pun intended\) which had a divided inner area to house the mainboard at the top and drives and PSU in a lower separate compartment. This did allow for a good division of components creating heat and noise.
 
-The design failed though as there was a massive hole between those compartments allowing air from both compartments to circulate. I solved it someway by closing it with some foam I had lying around and some labels. Sigh..
+The design failed though as there was a massive hole between those compartments allowing air from both compartments to circulate. I solved it someway by closing it with some foam I had lying around and some labels. Sigh.
 
 So let's take a look at the case which is the real reason for this blog.
 
@@ -19,7 +19,7 @@ So let's start with the
 
 ## Top
 
-The Top is the only direct way \(except the rear mountable fan\) to expel heat out of the case. But it still has issues as the dust-filter \(which you should remove if you use the top as exhaust\) is on top of the radiator. And if you remove the dust-filter you are have a quite decent area under the top cover in which the air can circulate. And you have quite some gaps in which the air can go back into the case too.
+The Top is the only direct way \(except the rear mountable fan\) to expel heat out of the case. But it still has issues as the dust-filter \(which you should remove if you use the top as exhaust\) is on top of the radiator. And if you remove the dust-filter you have a quite decent area under the top cover in which the air can circulate. And you have quite some gaps in which the air can go back into the case too.
 
 ![Unfortunately no before picture available](../../.gitbook/assets/topgapclosed.png)
 
@@ -33,7 +33,7 @@ The Side has even more issues than the Top, there is a massive gap between the r
 
 ![](../../.gitbook/assets/sidewithdrainandgaps.png)
 
-This leads to hot air being pushed into the side compartment if you run the fans in a push configuration. Also through the not covered holes between the side and the mainboard compartment \(even if LianLi is doing a good job there are still some gaps\) the hot air can be circulated back into the mainboard compartment.
+This leads to hot air being pushed into the side compartment if you run the fans in a push configuration. Also through the not covered holes between the side and the mainboard compartment \(even if LianLi is doing a good job there are still some gaps\), the hot air can be circulated back into the mainboard compartment.
 
 ![](../../.gitbook/assets/aquaintheside.png)
 
@@ -47,11 +47,11 @@ The integrated mounting frame for the radiator sounds like a good idea. Up to th
 
 Normally you configure the lower radiator to pull cool air into the case and you would for sure keep a dust filter probably outside the case to keep the dust out.
 
-Unfortunately dust filters which are not directly mounted on top of the fan or radiator cause a very high resistance for the air to go through them if the air finds a different way. And that way is via the holes in the mounting frame, luckily there are not a lot and depending from the Radiator you mount they will even be covered.
+Unfortunately, dust filters that are not directly mounted on top of the fan or radiator cause a very high resistance for the air to go through them if the air finds a different way. And that way is via the holes in the mounting frame, luckily they are not a lot, and depending on the Radiator you mount they will even be covered.
 
 So some of the air which you will suck through the radiator in a pull configuration will be coming from inside the case and not from the outside.
 
-Also there are quite some other gaps next to the filter.
+Also, there are quite some other gaps next to the filter.
 
 ![](../../.gitbook/assets/gratewithswisscheese.png)
 
@@ -59,13 +59,17 @@ Also there are quite some other gaps next to the filter.
 
 ## HardDrive Cages
 
-The case is great for drives, not only lot of mount options for SSDs but also 2 hot swappable drive cages with 2 drive frames.
+The case is great for drives, not only a lot of mount options for SSDs but also 2 hot-swappable drive cages with 2 drive frames.
 
 The only problem is that they sit on top of the PSU in the side compartment and only rely on passive airflow to come through the case holes to be cooled.
 
 ![](../../.gitbook/assets/mainboardconnectionpanel.png)
 
-I had similar issues in my old hackintosh where the Seagate Firecuda drive is lying in the PSU compartment.
+I had similar issues in my old Hackintosh where the Seagate Firecuda drive is lying in the PSU compartment.
 
-What I can not understand is that no test of the case up to now did even look at temperatures in the drive areas, they only focus on CPU and GPU temperature. In my opinion a very lacking approach especially for a case which is kinda sold as a harddrive case.
+What I can not understand is that no test of the case up to now did even look at temperatures in the drive areas, they only focus on CPU and GPU temperature. In my opinion a very lacking approach especially for a case that is kinda sold as a hard drive case.
+
+{% hint style="success" %}
+Luckily it looks like I did choose the right combination as the thermals of my drives are quite ok.
+{% endhint %}
 

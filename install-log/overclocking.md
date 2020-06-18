@@ -1,7 +1,7 @@
 # Overclocking
 
 {% hint style="warning" %}
-The following configuration is something which works on MY hackintosh.
+The following configuration is something that works on MY Hackintosh.
 
 It might not work on other systems and it might harm your computer.
 {% endhint %}
@@ -10,7 +10,7 @@ It might not work on other systems and it might harm your computer.
 
 I started with some save overclocking based on some information I found [here.](https://forums.bit-tech.net/index.php?threads/9900k-5ghz-1-2v-guide-gigabyte-z390-master.353729/)
 
-I did do some old fashioned screen shots as the bios do differ a lot though.
+I did do some old fashioned screenshots as the bios do differ a lot though.
 
 ### CPU?? Settings
 
@@ -34,7 +34,7 @@ Best done under windows as the tools are just better there.
 
 Not done yet
 
-Overclocking the PowerColor Liquid Devil is easy, it is Overclocked out of the box 😀 At least if the Bios Setting is set to OC.
+Overclocking the PowerColor Liquid Devil is easy, it is Overclocked out of the box 😀  At least if the Bios Setting is set to OC.
 
 But you can even go faster by switching to the Unleashed Bios.
 

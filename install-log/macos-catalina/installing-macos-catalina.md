@@ -1,14 +1,14 @@
 # Installing macOS Catalina
 
-At least with the bootstick. Now for the spicy part. 
+At least with the boot stick. Now for the spicy part. 
 
 ## The installation
 
-Ok, not that problematic really except with the strange quirk that the installation might start in russian.
+Ok, not that big of a problem really except with the strange quirk that the installation might start in Russian.
 
 Boot from the USB Stick and Select **Install macOS Catalina \(external\)**
 
-If you get a russian interface change the language as I show in the pictures or try to use the **back** key to get to a selection screen.
+If you get a Russian interface change the language as I show in the pictures or try to use the **back** key to get to a selection screen.
 
 ![Russian Installation Dialogue](../../.gitbook/assets/russianinstall.jpg)
 
@@ -17,14 +17,14 @@ If you get a russian interface change the language as I show in the pictures or 
 ![English at least](../../.gitbook/assets/changelanguageinenglish.jpg)
 
 {% hint style="warning" %}
-Don't go ahead even it the tools will change to english. The installation under the hood will still use russian and you will end up with russian partition names and logs. 
+Don't go ahead even it the tools will change to English. The installation under the hood will still use Russian and you will end up with Russian partition names and logs. 
 {% endhint %}
 
-Create a partition for the installation via the DiskUtility, choose APFS with GUID. This will be the **Partition Name** afterwards being used to select in the boot picker and as name for your Hackintosh.
+Create a partition for the installation via the DiskUtility, choose APFS with GUID. This will be the **Partition Name** afterward being used to select in the boot picker and as the name for your Hackintosh.
 
-After creating the partition you can then install Catalina. The installation is really smooth, but requires several reboots so you should sit around and wait otherwise you keep up ending in Windows 10.
+After creating the partition you can then install Catalina. The installation is really smooth but requires several reboots so you should sit around and wait otherwise you keep up ending in Windows 10.
 
-Remember to keep booting from the USB Stick, select **macOS Installer** not Install macOS Catalina
+Remember to keep booting from the USB Stick, select **macOS Installer** and not Install macOS Catalina
 
 Remember to keep booting from the USB Stick, select the **Partition Name** which you did create before now
 

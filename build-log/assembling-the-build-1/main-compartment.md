@@ -4,7 +4,7 @@
 
 After deciding on how to [configure the fans](../assembling-the-build.md#radiators-and-fans) I installed them in the correct orientation and sleeved the cables.
 
-After that I added my custom stickers from StickerMule.
+After that, I added my custom stickers from StickerMule.
 
 Then I assembled the pump and the reservoir. I already added the light strip to the reservoir which was a mistake, as you need to slide it onto the mount, which isn't possible if the light strip is already installed.
 
@@ -16,7 +16,7 @@ When trying to add the mount for the reservoir to the radiator through the fans 
 
 2\) the diameter of the screws \(m4\)
 
-I guessed that I either need 3,5 cm or 4 cm long screws, they needed to be m4 because that is the size of the holes in the radiator. So I went out to get 4 of them each. For good measurement I also wanted to get some washer if needed. Quite an odessy unfortunately as I couldn't get them in the same shop.
+I guessed that I either need 3,5 cm or 4 cm long screws, they needed to be m4 because that is the size of the holes in the radiator. So I went out to get 4 of them each. For good measurement, I also wanted to get some washer if needed. Quite an odessey unfortunately as I couldn't get them in the same shop.
 
 After returning with the correct screws I did need to widen the holes in the mounting kit as they were for m3 screws.
 
@@ -24,13 +24,13 @@ After doing that I found out that the heads of the screws I got where too big to
 
 ![](../../.gitbook/assets/sideradwithheatkiller.png)
 
-For a redo of the build I will try to get some m4 3,5 screws in black with a smaller head, for now it has to work.
+For a redo of the build, I will try to get some m4 3,5 screws in black with a smaller head, for now, it has to work.
 
 ## Tubing
 
-During test mounting of the radiators with fans it became quite obvious that the case is quite tight with so much parts in it. To be able to access the inlet and outlets of the radiators and the pump I needed 45 or 90 degree fittings, otherwise I would end up with kinks in my tubing.
+During test mounting of the radiators with fans, it became quite obvious that the case is quite tight with so many parts in it. To be able to access the inlet and outlets of the radiators and the pump I needed 45 or 90 degree fittings, otherwise, I would end up with kinks in my tubing.
 
-I already purchased some 45 degree fittings but I needed a lot more. In the end I think the tubing worked out quite ok.
+I already purchased some 45 degree fittings but I needed a lot more. In the end, I think the tubing worked out quite ok.
 
 ![](../../.gitbook/assets/tubeinginplace.png)
 
@@ -44,11 +44,11 @@ I got the S-Bend done nicely by using some famous danish building blocks, using 
 
 ![](../../.gitbook/assets/lego4.png)
 
-I put the tube in place and then cooled it down again. At the moment it looks quite good, I hope it will hold to gravity and coolant. If this doesn't work I have some other options in making this work, but of course it will require draining the system first.
+I put the tube in place and then cooled it down again. At the moment it looks quite good, I hope it will hold to gravity and coolant. If this doesn't work I have some other options in making this work, but of course, that would require draining the system first.
 
 ![](../../.gitbook/assets/bottomradwithtubes.png)
 
-After finalising the tubing I went to start
+After finalizing the tubing I went to start
 
 ## Air Pressure Leak Testing
 

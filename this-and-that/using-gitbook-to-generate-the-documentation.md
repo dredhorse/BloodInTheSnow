@@ -10,7 +10,7 @@ but it is a little bit older so here are some additional steps you need to do.
 There is also an issue with a lot of the features of the newer version of Gitbook. This is for example embedded URL or this Hint even. This will cause the cli version of gitbook to fail. For example {% embed url="[https://github.com/chusiang/how-to-build-the-gitbook-with-gitbook-cli](https://github.com/chusiang/how-to-build-the-gitbook-with-gitbook-cli)" caption="" %} will cause Template render error: \( ..../SnowWhite/this-and-that/using-gitbook-to-generate-the-documentation.md\) \[Line 7, Column 2\] unknown block tag: embed make: _\*_ \[build\] Error 1
 {% endhint %}
 
-All in all I didn't pursue this further due to the above mentioned issues at the moment but I kept it here. It might be useful to others.
+All in all, I didn't pursue this further due to the above-mentioned issues at the moment but I kept it here. It might be useful to others.
 
 ### Prerequisites
 
@@ -34,7 +34,7 @@ chmod u+w /usr/local/share/man/man3 /usr/local/share/man/man5 /usr/local/share/m
 brew will tell you that this is needed if you run it without these rights and you can just copy / paste it in the terminal if you want.
 {% endhint %}
 
-If you than run the install of npm and node you will find that node will not work afterwards as it requires access to /usr/local/include.
+If you then run the install of npm and node you will find that node will not work afterward as it requires access to /usr/local/include.
 
 At least in my case the directory didn't exist so I created it and took over.
 
@@ -43,7 +43,7 @@ sudo mkdir /usr/local/include
 sudo chown $(whoami) /usr/local/include
 ```
 
-and than you can install node and npm
+and then you can install node and npm
 
 ```bash
 brew install node npm
@@ -135,7 +135,7 @@ If you use the make file which comes with this repo you can now do:
 
 And now we just need to configure Github to show the documentation on Github Pages.
 
-Before you can configure github so, make sure that you already have a **/docs** folder in your repository.
+Before you can configure GitHub, make sure that you already have a **/docs** folder in your repository.
 
 Go to the Settings of your repository.
 

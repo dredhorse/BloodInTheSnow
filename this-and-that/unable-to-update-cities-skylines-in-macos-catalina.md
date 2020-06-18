@@ -6,7 +6,7 @@ description: >-
 
 # Unable to Update Cities:Skylines in macOS Catalina
 
-This is something which caused me some pain, especially as Steam Support can only post links to their FAQ as it seems.
+This is something that caused me some pain, especially as Steam Support can only post links to their FAQ as it seems.
 
 But after trying my best Sherlock Holmes impression I got it solved.
 
@@ -14,15 +14,15 @@ But after trying my best Sherlock Holmes impression I got it solved.
 
 ## The Problem
 
-Installing Cities:Skyline went fine and I could even start it, but it kept complaining about an update it wanted to do and a Disk Write Error.
+Installing Cities:Skylines went fine and I could even start it, but it kept complaining about an update it wanted to do and a Disk Write Error.
 
 ```text
 2020-05-14 10:36:47] [AppID 255710] Update canceled: Failed to write patch state file (Disk write failure) "/Volumes/The7Dwarfs/Games/steamapps/workshop/downloads/state_255710_255710_851382354.patch"
 ```
 
-I looked around the internet and tried Steam Support, which weren't helpful at all as they kept on quoting their troubleshooting FAQ and insisted it must be a hardware issue or something which could only be solved by a technician on my part.
+I looked around the internet and tried Steam Support, which wasn't helpful at all as they kept on quoting their troubleshooting FAQ and insisted it must be a hardware issue or something which could only be solved by a technician on my part.
 
-Well of course there was an issue on my side, but  other games installed fine. I even tried another new drive, I tried it on the boot device and I did any other thing I could think off.
+Well of course there was an issue on my side, but other games installed fine. I even tried another new drive, I tried it on the boot device and I did any other thing I could think off.
 
 But it looks like troubleshooting their product ends at supplying links to a FAQ if you use steam support instead of really solving the issue, and the problem is partly their issue.
 
@@ -30,11 +30,11 @@ But it looks like troubleshooting their product ends at supplying links to a FAQ
 
 So I started hunting for more information. A disk write error can be caused by a lot of things especially if it is so un-descriptive.
 
-I checked if the virus scan was the culprit or if perhaps the source \(not existing files\) was the issue.. nope.
+I checked if the virus scan was the culprit or if perhaps the source \(not existing files\) was the issue, but nope.
 
 I figured out that 255710 is the ID code for Cities:Skylines and I also figured out that [851382354](https://steamcommunity.com/sharedfiles/filedetails/?id=851382354) is an asset from the workshop. 
 
-I deleted the cache etc and found now another file having issues, from asset 856897755, I asked the developer if he perhaps uses strange symbols and the declined. I even unpacked the CRP file to take a look on my side if there is an issue. Nothing.
+I deleted the cache etc and found now another file having issues, from asset 856897755, I asked the developer if he perhaps uses strange symbols, and he declined. I even unpacked the CRP file to take a look at my side if there is an issue. Nothing.
 
 So I went the route to figure out if there was really an issue of the filesystem.
 
@@ -59,7 +59,7 @@ So I let this run and tried updating again.
 #define	EMFILE	24	/* Too many open files			*/
 ```
 
-Well, that is a lot more information just like Disk Write Error isn't it?
+Well, that is a lot more information just like Disk Write Error, isn't it?
 
 So should I talk to steam support now and let them fix their program?
 
@@ -71,7 +71,7 @@ And I will also put a link in all of the threads I started so other people can s
 
 ## More background
 
-Now the next search started, after figuring out that steam opens to many files during it's update process,  how can you fix the issue.
+Now the next search started, after figuring out that steam opens to many files during its update process,  how can you fix the issue?
 
 {% hint style="info" %}
 BTW: I have LOT's of assets included in Cities:Skylines so I guess this is not a common issue.
@@ -127,7 +127,7 @@ None of this maps in any way to the 2048 which would be the next successful file
 
 ## Solving the riddle
 
-Hunting through the internet provides lot's of information on how to get rid of the "Too Many Files Open" issue.
+Hunting through the internet provides lots of information on how to get rid of the "Too Many Files Open" issue.
 
 One very good read and also useful is the answer on [apple.stackexchange.com](https://apple.stackexchange.com/questions/366187/why-does-setting-the-hard-limit-for-maxfiles-to-unlimited-using-launchctl-lim) 
 
@@ -175,7 +175,7 @@ Well....
 The VM only has 2 CPU kernels and 50 GB of harddrive space. So the values I showed you above might vary but the maxfiles is still 256
 {% endhint %}
 
-So in the stackexchange article above we learned that we have a softlimit \(256\) and a hardlimit \(unlimited\) of maxfiles.
+So from the stackexchange article above, we learned that we have a softlimit \(256\) and a hardlimit \(unlimited\) of maxfiles.
 
 How do we change the value of 256 to a value which works? And will this fix the issue?
 
@@ -193,17 +193,17 @@ Same issue, Disk Write Error when the Update is triggered. And again a "Too Many
 
 So we confirmed our suspicion: 
 
-It has nothing to do with the system being a hackintosh, the hardware or the phase of the moon. And neither is the butler the murder.
+It has nothing to do with the system being a Hackintosh, the hardware, or the phase of the moon. And neither is the butler the murder.
 
 ## The hunt begins
 
-Figuring out how to change that maximum open files in macOS Catalina is again not that easy, most of the information available is for linux or older versions of macOS.
+Figuring out how to change that maximum open files in macOS Catalina is again not that easy, most of the information available is for Linux or older versions of macOS.
 
 But truth behold there is something out [there.](https://gist.github.com/tombigel/d503800a282fcadbee14b537735d202c)
 
 So let's try out the [comment ](https://gist.github.com/tombigel/d503800a282fcadbee14b537735d202c#gistcomment-3288161)to run it in Catalina \(which is really just the steps on how to get this load.sh created\).
 
-After that we restart the VM and take a look again at the values.
+After that, we restart the VM and take a look again at the values.
 
 ```text
 sysctl kern.maxfiles       
@@ -235,7 +235,7 @@ launchctl limit
 	maxfiles    524288         524288 
 ```
 
-Also there is the issue with:
+Also, there is the issue with:
 
 ```text
 Before change:
@@ -270,7 +270,7 @@ launchctl limit
 
 Oh well, and what about the side effects? What does our doctor tell us?
 
-I tried running lsof in the vm but it didn't cause the issues described. But are we sure about the behaviour in the long run?
+I tried running lsof in the VM but it didn't cause the issues described. But are we sure about the behavior in the long run?
 
 So perhaps we could make this work temporarily? Would this work without changing **maxproc** ?
 
@@ -307,17 +307,17 @@ Update is working! At least if you have more than 40GB of harddrive space in tot
 
 A reboot will clear this value.
 
-But now an other issue creeps up. Paradox Launcher will complain to not have access to the game directory.
+But now another issue creeps up. Paradox Launcher will complain to not have access to the game directory.
 
 ![](../.gitbook/assets/citi_skylines-access-to-gamedir-error.png)
 
-Is that important? Don't know because afterwards it was fine.
+Is this important? I Don't know because afterward it was fine.
 
-Started Cities: Skylines which came up with another error.
+Started Cities: Skylines that came up with another error.
 
 ![](../.gitbook/assets/cities_skylines_error.png)
 
-Is that important?
+Is this important?
 
 And how will the Paradox Launcher behave when I use 
 
@@ -325,9 +325,13 @@ And how will the Paradox Launcher behave when I use
 sudo launchctl limit maxfiles 524288 2147483647
 ```
 
-Same behaviour for the Paradox Launcher and Cities:Skylines.
+Same behavior for the Paradox Launcher and Cities:Skylines.
 
 So it looks like those errors are not based on the maxfiles value.
+
+{% hint style="warning" %}
+It could be that this is just missing file rights in general under Catalina which could be fixed with giving the apps the rights in System Preferences / Security.
+{% endhint %}
 
 ## The solution
 
@@ -335,7 +339,7 @@ Final Verdict isn't in yet.
 
 There are two options:
 
-1\) keeping it temporary, so running the launchctl limit line every time  I get the Disk Write Error again
+1\) keeping it temporary, so running the launchctl limit line every time I get the Disk Write Error again
 
 2\) Using the approach from the gist to keep those settings permanently configured.
 

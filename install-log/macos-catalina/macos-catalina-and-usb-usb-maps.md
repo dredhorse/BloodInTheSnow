@@ -2,7 +2,7 @@
 
 The number of USB ports available in macOS is always weird. And we talk here about the USB ports build into the hardware directly and not any other ports added by hubs. Oh, and btw the limit is 15.
 
-For a more detailed read you can take a look in the OpenCore documentation [here](https://dortania.github.io/USB-Map-Guide/) or take a look into a lot of the Hackintosh forums which will have threads which will talk you through creating a USB map file, for example the [The New Beginner's Guide to USB Port Configuration](https://www.tonymacx86.com/threads/the-new-beginners-guide-to-usb-port-configuration.286553/) .
+For a more detailed read, you can take a look in the OpenCore documentation [here](https://dortania.github.io/USB-Map-Guide/) or take a look into a lot of the Hackintosh forums which will have threads that will talk you through creating a USB map file, for example the [The New Beginner's Guide to USB Port Configuration](https://www.tonymacx86.com/threads/the-new-beginners-guide-to-usb-port-configuration.286553/) .
 
 ## USB Port Map
 
@@ -28,10 +28,10 @@ I have taken the information from [cmer's post on github](https://github.com/cme
 I had some discussion with [Audiogod about which ports he did include in his USBPorts.kext](https://www.insanelymac.com/forum/topic/340936-audiogods-aorus-z390-master-patched-dsdt-efi-for-catalina-mini-guide-and-discussion/?do=findComment&comment=2723072) which shows I still need to learn a lot.
 
 {% hint style="info" %}
-Keep in mind that SS are USB3 ports and HS are the USB2 ports.
+Keep in mind that SSxx are USB3 ports and HSxx are the USB2 ports.
 {% endhint %}
 
-But looking into the info.plist file of this kext you will see the following
+But by looking into the info.plist file of the USBPorts.kext you will see the following
 
 ![USBPorts.kext](../../.gitbook/assets/info.plist-2020-05-26-11-51-59.png)
 
