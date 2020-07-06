@@ -11,7 +11,8 @@ There should be a better sentence than this.
 1. Strange Issues with Bios Problems, can't really figure out atm what is causing them, could be RAM not posting
 2. Stream Deck keeps on pulsing after the computer is shutdown. It is connected to a USB Hub like most of my other devices. That hub is powered but the power is cut off when the computer shuts down via a master / slave extension cord. Looks like USB is still powered.
 3. The RGB led's inside the CPU cooler doesn't work, it is only flashing rapidly in green very light if at all. Looks like I will need to replace the vision module. I will do that later as atm the led's are not that important and it will require draining of the system as the notch to release the module is obstructed by the fittings.
-4. 
+4. The RGB configuration of the motherboard doesn't stay, you need to boot into Windows to make it work, but after a reboot it is gone again and defaults to Rainbow. Memory configuration stays over reboots.
+
 ## macOS Issues \(MI\)
 
 1. Getting a Crash in macOS with Sleep Mode: Sleep Wake failure in EFIFailure code:: 0xffffffff 0x0000001f
