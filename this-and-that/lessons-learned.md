@@ -136,3 +136,25 @@ Using the Aquacomputer components adds a lot of complexity too, using a Bios man
 
 Oh well, at least now I should have a fully customizable autonomous managed system.
 
+## Test the build before you finish it!
+
+So we are now at almost 1 year of boot issues. I'm trying to troubleshoot it with Gigabyte but I don't really see an option for the time ahead.
+
+Except to buy a new motherboard, figure out if that fixes it, then the CPU, then the GPU etc 😞
+
+I have boot issues since the start, constant looping, going into bios etc. I just load my profile all the time and try again. And after 1 to 6 reboots it normally works and is stable for days / weeks \(running that is\).  Sometimes it takes more than 30 minutes though, even with a bios reset. In the end I just load the profile again, which doesn't has anything special in there \(no Overclocking etc\).
+
+I already changed the memory but that didn't help so I guess I have to bite the bullet.
+
+So how could I work around that issue in the future?
+
+1. Get a CPU cooler \(Stock would do\)
+2. Assemble mainboard with cpu, ram, drive and psu and try it out.
+3. Insert mainboard into chassis and try it out
+4. Add other components and try it out
+5. Add GPU and watercooling in the end.
+
+This would at least get around any issues with the hardware components which are obvious from the start.
+
+Oh well.
+
