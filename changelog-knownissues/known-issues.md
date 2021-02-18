@@ -28,6 +28,5 @@ There should be a better sentence than this.
 
 ### Fixed
 
-1. Strange Issues with Bios Problems, can't really figure out atm what is causing them, could be RAM not posting \(Looks like reseating all cards and memory fixed this\)
-2. The RGB led's inside the CPU cooler doesn't work, it is only flashing rapidly in green very light if at all. Looks like I will need to replace the vision module. I will do that later as atm the led's are not that important and it will require draining of the system as the notch to release the module is obstructed by the fittings.
+1. The RGB led's inside the CPU cooler doesn't work, it is only flashing rapidly in green very light if at all. Looks like I will need to replace the vision module. I will do that later as atm the led's are not that important and it will require draining of the system as the notch to release the module is obstructed by the fittings.
 
