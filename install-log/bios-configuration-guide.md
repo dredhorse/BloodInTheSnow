@@ -40,6 +40,7 @@ Than
 * Disable Internal Graphics Card \(if you are using a iMacPro1,1 version of the Build\)
 * Set Aperture Size to 512 MG
 * Make changes to the memory profile if required
+* Disable CSM if you are using a Liquid Devil like I do!
 
 Save Bios configuration
 

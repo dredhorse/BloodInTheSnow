@@ -9,8 +9,7 @@ There should be a better sentence than this.
 ## General Issues \(GI\)
 
 1. Stream Deck keeps on pulsing after the computer is shutdown. It is connected to a USB Hub like most of my other devices. That hub is powered but the power is cut off when the computer shuts down via a master / slave extension cord. Looks like USB is still powered.
-2. The RGB configuration of the motherboard doesn't stay, you need to boot into Windows to make it work, but after a reboot, it is gone again and defaults to Rainbow. Memory and GPU RGB configuration stays over reboots.
-3. BIOS boot issues. Talking to Gigabyte support now as it is really getting problematic. One time it boots directly through, the next time I need to reboot 1 - 6 times, the next time it takes 1 hour to get it successfull to boot 😞. I already removed the GPU \(luckily I don't have hardtubing\) and swapped the memory. No changes. Unfortunatley the Aorus Z390 Master isn't available anymore so I ordered a new Aorus Z390 Pro as I doubt I will get a replacement from Gigabyte. If replacing the mainboard doesn't fix it it there is only the CPU and the powersupply left.
+2. CSM needs to be disabled in the BIOS, otherwise you can't boot as the Liquid Devil Bios doesn't support it. This is now really an annoyance as I don't have a backup bios anymore.
 
 ## macOS Issues \(MI\)
 
@@ -29,4 +28,8 @@ There should be a better sentence than this.
 ### Fixed
 
 1. The RGB led's inside the CPU cooler doesn't work, it is only flashing rapidly in green very light if at all. Looks like I will need to replace the vision module. I will do that later as atm the led's are not that important and it will require draining of the system as the notch to release the module is obstructed by the fittings.
+2. BIOS boot issues. Talking to Gigabyte support now as it is really getting problematic. One time it boots directly through, the next time I need to reboot 1 - 6 times, the next time it takes 1 hour to get it successfull to boot 😞. I already removed the GPU \(luckily I don't have hardtubing\) and swapped the memory. No changes. Unfortunatley the Aorus Z390 Master isn't available anymore so I ordered a new Aorus Z390 Pro as I doubt I will get a replacement from Gigabyte. 
 
+   I replaced the motherboard and the boot issues are gone, should have done it earlier. I could even got a replacement from Amazon \(Gigabyte doesn't handle the replacement in the first 2 years at it seems\), but a\) the board isn't available from Amazon anymore \(so they offere money back\) and b\) the board isn't available anymore really as stated\). So I should have tackled that issue directly I guess and don't hope for a Bios to fix it. BTW: This was a are revision 1.0 motherboard.
+
+3. 
